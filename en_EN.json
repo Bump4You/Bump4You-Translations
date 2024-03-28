@@ -1,0 +1,527 @@
+{
+   "Ping": {
+      "embed": {
+         "title": "Pong!",
+         "api": "API Latency",
+         "client": "Client Latency"
+      }
+   },
+
+   "Language": {
+      "embed": {
+         "title": "Language",
+         "current": "Current language",
+         "previous": "Previous language"
+      }
+   },
+
+   "Request_Delete": {
+      "title": "Request Data Deletion",
+      "description": "Are you sure you want to delete your data saved about you? This action cannot be undone.",
+      "confirm": "Confirm Delete",
+      "cancel": "Cancel"
+   },
+
+   "Help": {
+      "embed": {
+         "title": "Help",
+         "fields": {
+            "guide": {
+               "youtube_tutorial": "YouTube Tutorial",
+               "dashboard": "Dashboard",
+               "name": "How to use Bump4You",
+               "value": "Bump4You makes it very easy to set up your advert! Check out this {yt_tutorial} or use our {dashboard} to set up your advert directly!",
+               "continued": "To set up your advert in Discord, please click the Setup Guide button below to follow the guide or click the Commands button to view all of Bump4You's cool commands."
+            },
+            "premium": {
+               "support_server": "Support Server",
+               "name": "How to get Premium",
+               "value": "There are currently three ways to get premium:",
+               "point_1": "Subscribe to our {patreon}.",
+               "point_2": "Vote for Bump4You on {topgg}.",
+               "point_3": "Boost our {support_server}."
+            }
+         },
+         "dyk": {
+            "1": "Did you know that the color of growth is green?",
+            "2": "Did you know that you can change Bump4You's language using {command}?"
+         },
+         "links": {
+            "website": "Website",
+            "premium": "Premium",
+            "support": "Support"
+         }
+      },
+      "guide_embed": {
+         "title": "Setup Guide",
+         "fields": {
+            "setup": {
+               "dashboard": "Dashboard",
+               "name": "Easy first time setup",
+               "value": "We have introduced a way to create your advert directly with only one command, you can start this process by executing {command} or simply use our {dashboard}."
+            },
+            "configure": {
+               "name": "Advert Configurations",
+               "value": "You can follow the steps below or jump to specifc steps to configure a specific element of your advert.",
+               "point_1": "Let's set your server's advert channel:",
+               "point_1_details": "Execute the {command} command.",
+               "point_2": "Let's set your server's description:",
+               "point_2_details": "Execute the {command} command.",
+               "point_3": "Let's set your server's invite link:",
+               "point_3_details": "Execute the {command} command.",
+               "point_4": "Let's set your server's image, this is an optional step:",
+               "point_4_details": "Execute the {command} command."
+            }
+         }
+      },
+      "commands_embed": {
+         "title": "Command List"
+      },
+      "buttons": {
+         "guide": "Setup Guide",
+         "commands": "Commands",
+         "invite": "Add Bump4You",
+         "back": "Back"
+      }
+   },
+
+   "Setup": {
+      "embed": {
+         "title": "Bump Setup",
+         "description": {
+            "welcome": "Welcome to first time setup!",
+            "value": "To begin, click the button below! Alternatively, you can use the following commands to manually configure your advert"
+         }
+      },
+
+      "channel_embed": {
+         "description": {
+            "name": "Set Bump Channel",
+            "value": "Please select a channel below to set your server's bump channel. You can always change this by using `/set-channel`!"
+         },
+         "channel": "Bump channel",
+         "not_found": "No bump channel was found",
+         "channel_deleted": "The bump channel was deleted, please select a new channel",
+         "placeholder": "Select a bump channel..."
+      },
+
+      "description_embed": {
+         "description": {
+            "name": "{description_emoji} Set Description",
+            "value": "Please click the button below to set your server's description. You can always change this by using `/set-description`!"
+         },
+         "preview": "{preview_emoji} Description Preview",
+         "preview_not_found": "No description has been created for this server.",
+         "modal": {
+            "title": "Set a Description",
+            "label": "Please enter your server description",
+            "placeholder": "Describe your server..."
+         }
+      },
+
+      "invite_embed": {
+         "description": {
+            "name": "{invite_emoji} Set Invite Link",
+            "value": "Please select an invite link from below or select \"Create a new invite link\" to create a new invite link. You can always change this by using `/set-invite`!"
+         },
+         "create_new": "Create new invite",
+         "default_option_description": "Bump4You will create a new invite",
+         "placeholder": "Select an invite link...",
+         "preview": "{invite_preview_emoji} Current Invite Link",
+         "preview_not_found": "No invite link has been selected for this server",
+         "create_invite": "Bump4You will create a new invite link",
+         "uses": "Uses",
+         "invalid_invite_link": "The invite link is invalid or has expired.",
+         "warnings": {
+            "temporary_link": "This link is temporary",
+            "expire": "This link will expire",
+            "expire_after": "Expires after {uses} uses"
+         },
+         "modal": {
+            "title": "Set an Image URL",
+            "label": "Set your image url, leave blank for default"
+         }
+      },
+
+      "image_embed": {
+         "url_not_valid": "Invalid Image URL",
+         "url_not_valid_value": "{url} is not a valid URL",
+         "premium": "Premium Required",
+         "premium_value": "You need Bump4You Premium in order to use the {type} format as your image",
+         "not_an_image": "Unable to find image",
+         "not_an_image_value": "{url} points to a web page and not an image, try adding the extension to your link, like \".png\"",
+         "description": {
+            "name": "{image_emoji} Set Image - *optional*",
+            "value": "Set the image below your bump embed. Make sure that the link ends with an extension like \".png\"."
+         },
+         "preview": "{image_preview_emoji} Current Image",
+         "preview_not_found": "You have not set the image so below is what will be shown as default."
+      },
+
+      "complete_embed": {
+         "name": "{complete_emoji} Setup Complete!",
+         "value": "Congratulations, you have successfully completed the setup! You can preview your advert by using </preview:> and starting bumping using </bump:> to share your advert across other servers!",
+         "fields": {
+            "name": "{reminder_emoji} You can always change values using these commands:"
+         }
+      },
+
+      "buttons": {
+         "back": "Back",
+         "begin": "Begin Setup",
+         "next": "Next",
+         "edit_description": "Edit Description",
+         "edit_image": "Edit Image URL",
+         "finish": "Finish",
+         "bump": "Bump!",
+         "preview": "Preview Advert"
+      }
+   },
+
+   "Set": {
+      "Channel": {
+         "channel_not_found": "Channel not found",
+         "not_found_value": "Unable to find the channel with the id of {channel}",
+         "not_text": "Not a text channel",
+         "not_text_value": "{channel} is not a text channel, please select a different channel that is a text channel",
+         "embed": {
+            "title": "Set Bump Channel",
+            "fields": {
+               "new_channel": "New Bump Channel",
+               "old_channel": "Old Bump Channel"
+            }
+         }
+      },
+      "Description": {
+         "embed": {
+            "title": "Set Bump Description",
+            "description": "Your description below will automatically be saved.",
+            "preview": "Current Description",
+            "preview_not_found": "No description has been created for this server."
+         }
+      },
+      "Invite": {
+         "embed": {
+            "title": "Set Invite Link",
+            "preview": "Current Invite Link",
+            "preview_not_found": "No invite link has been selected for this server"
+         }
+      },
+      "Color": {
+         "embed": {
+            "title": "Set Color",
+            "description": "The color of this embed will be the same as your chosen color for your bump embed",
+            "color": "Current Color",
+            "not_a_color": "{color} is not a valid color, please enter a valid HEX code or select one of the predefined colors"
+         }
+      },
+      "Tags": {
+         "embed": {
+            "title": "Set Server Tags",
+            "description": "Adding tags that describe your server can greatly improve the rate of new members that joins your server.",
+            "tags": "Your Tags",
+            "tags_not_found": "No tags have been selected, select some tags using the select menu below",
+            "placeholder": "Select some tags..."
+         }
+      },
+      "Header": {
+         "premium": "Premium Required",
+         "premium_value": "You need to activate premium for this server before you can change the header image.",
+         "title": "Set Header Url",
+         "description": "Set the image above your bump embed. Make sure that the link ends with an extension like \".png\"."
+      },
+      "Reminder": {
+         "embed": {
+            "author": "{user}'s Profile",
+            "title": "Toggle Reminder",
+            "description": "Mode",
+            "enabled": "Enabled",
+            "enable": "Enable",
+            "disabled": "Disabled",
+            "disable": "Disable"
+         }
+      },
+      "Autobump": {
+         "embed": {
+            "title": "Set Autobump",
+            "description": "Enable or Disable autobump for this server.",
+            "mode": "Mode",
+            "premium_required": {
+               "title": "Premium Required!",
+               "description": "You need to activate premium for this server before you can use this command."
+            }
+         }
+      },
+      "buttons": {
+         "edit_description": "Edit Description",
+         "edit_header": "Edit Header URL"
+      }
+   },
+
+   "Bump": {
+      "server_not_found": "Server not found",
+      "server_not_found_description": "Whoops, it looks like this server is not available.",
+      "server_details": "Details",
+      "description": "Description",
+      "additional_links": "Extra Links",
+      "created": "Created",
+      "members": "Members",
+      "boosters": "Boosters",
+      "additional_info": "Additional Information",
+      "bumps": "Bump Count",
+      "language": "Language",
+      "rating": "Rating",
+      "badges": "Badges",
+      "tags": "Tags",
+      "bumped_by": "Bumped by",
+
+      "embed": {
+         "error": "Error",
+         "error_message": "Something went wrong",
+         "error_description": "Looks like you caught an ultra rare error! The error has been logged and we'll be fixing it soon.",
+
+         "autobump": {
+            "title": "Bump Disabled",
+            "description": "The bump command is disabled because autobump is enabled on this server."
+         },
+
+         "title": "Server Bumped Successfully!",
+         "details": "Details",
+         "shared_to": "Shared to",
+         "servers": "servers",
+         "reached": "Reached",
+         "users": "users",
+         "cooldown": "Bump Cooldown",
+         "bumped": "Bumped",
+         "times": "times",
+         "links": "Additional Links",
+         "time": {
+            "hour": "hour",
+            "hours": "hours",
+            "minutes": "minutes"
+         },
+         "did_you_know": "Did you know?",
+         "dyk": {
+            "1": "You can buy premium with voting for Bump4You on {top_gg}.",
+            "2": "You can change your banner to a GIF with premium.",
+            "3": "You can change your header image with premium.",
+            "4": "You can select more tags with premium.",
+            "5": "You can decrease your bump cooldown with premium."
+         }
+      },
+
+      "languages": {
+         "english": "English",
+         "german": "German"
+      },
+
+      "validations": {
+         "bump_not_found": "Woah, I am unable to find any data relating to your server, please use {command} before you bump your server.",
+         "missing_permissions": "Missing Permissions",
+         "permissions_error": "Woah, I am missing very important permissions in this server! Please add the following permissions to Bump4You.",
+         "channel": {
+            "not_found": "Woah, your bump channel does not exist! Please set it to a new one by using {command} before you bump this server.",
+            "not_text": "Woah, your bump channel is not a text channel. Please use {command} to set it to a text channel.",
+            "not_visible": "Woah, @everyone cannot view your bump channel, please head over to {channel} and change the default permissions to allow {permission}.",
+            "missing_permissions": "Woah, I have missing permissions! Please add the following permissions in {channel} to Bump4You."
+         },
+         "description": "Woah, looks like you have not set the description of this server. You can change the description by using {command}.",
+         "invite_link": "Woah, looks like you have not set the invite link of this server. You can change the invite link by using {command}.",
+         "cooldown": {
+            "title": "Bump Failed",
+            "description": "The bump cooldown has not expired yet!",
+            "details": "Details",
+            "bump_again": "Bump Again",
+            "last_bumped_by": "Last Bumped By",
+            "nobody": "Nobody",
+            "dyk": "Did you know?",
+            "did_you_know": "You can decrease your bump cooldown with {premium}."
+         }
+      },
+
+      "review": {
+         "guild_not_found": {
+            "title": "Server not found",
+            "value": "Bump4You is no longer available in this server."
+         },
+         "not_a_member": {
+            "title": "Not a member",
+            "value": "To rate this server you need to be in that server. Please join the server and try rating again."
+         },
+         "command_not_found": {
+            "title": "Command Unavailable",
+            "value": "Bump4You was unable to complete this command. Please try again later."
+         }
+      },
+
+      "buttons": {
+         "remind_me": "Remind Me!",
+         "join_server": "Join Server",
+         "add_bot": "Add Bot",
+         "review_server": "Review",
+         "report": "Report"
+      }
+   },
+
+   "Vote": {
+      "title": "Vote for Bump4You",
+      "websites": "Websites"
+   },
+
+   "BotInfo": {
+      "embed": {
+         "title": "Bump4You's Information",
+         "info": "Bot Information",
+         "bot_stats": "Bot Statistics",
+         "bot": {
+            "name": "Name       ➜ {value}",
+            "id": "ID         ➜ {value}",
+            "latency": "Latency    ➜ {value}",
+            "prefix": "Prefix     ➜ {value}",
+            "developers": "Developers ➜ {value}"
+         },
+         "stats": {
+            "servers": "Total Servers  ➜ {value}",
+            "members": "Total Members  ➜ {value}",
+            "bumps": "Total Bumps    ➜ {value}",
+            "uptime": "Total Uptime   ➜ {value}"
+         }
+      }
+   },
+
+   "Review": {
+      "embed": {
+         "title": "Review {server_name}",
+         "fields": {
+            "message": "Message",
+            "message_not_found": "Message does not exist",
+            "rating": "Rating"
+         }
+      },
+      "modal": {
+         "title": "Write a Review",
+         "label": "Write your review here",
+         "placeholder": "This server is cool..."
+      },
+      "buttons": {
+         "edit_message": "Edit Message"
+      }
+   },
+
+   "Banned": {
+      "embed": {
+         "title": "Server Banned",
+         "description": "{guild_name} has been banned and will not be able to use Bump4You",
+         "field": {
+            "title": "Information",
+            "reason": "Reason",
+            "id": "ID"
+         }
+      },
+      "buttons": {
+         "appeal": "Appeal"
+      }
+   },
+
+   "Report": {
+      "modal": {
+         "title": "Send a Report",
+         "label": "Reason.",
+         "placeholder": "What makes this advert inappropriate?"
+      },
+      "embed": {
+         "title": "Server has been Reported",
+         "description": "Thank you for your report! Our staff team will be reviewing it shortly.",
+         "fields": {
+            "server": "Server",
+            "reason": "Your Reason"
+         }
+      },
+      "buttons": {
+         "join_support": "Join Support"
+      }
+   },
+
+   "DeleteData": {
+      "embed": {
+         "cancel": "Request has been canceled.",
+         "description": "All your information has successfully been deleted!"
+      }
+   },
+
+   "Leaderboard": {
+      "embed": {
+         "title": "Bump4You's Bump Leaderboard",
+         "fields": {
+            "official": "Official Bump4You Servers",
+            "top_ten": "Most Bumped Servers"
+         }
+      }
+   },
+
+   "Reminder": {
+      "content": "{user}, It's that time again!",
+      "embed": {
+         "title": "Bump Time",
+         "description": "It's that time again! Use `/bump` to start bumping again.",
+         "fields": {
+            "share_again": "Share Again",
+            "last_bumped": "Last Bumped",
+            "did_you_know": "Did you know",
+            "dyk": {
+               "1": "You can buy premium with voting for Bump4You on {top_gg}.",
+               "2": "You can change your banner to a GIF with premium.",
+               "3": "You can change your header image with premium.",
+               "4": "You can select more tags with premium.",
+               "5": "You can decrease your bump cooldown with premium.",
+               "6": "You can auto bump using premium"
+            }
+         }
+      },
+      "buttons": {
+         "bump": "Bump!",
+         "notifications": "Manage Notifications"
+      }
+   },
+
+   "Premium": {
+      "embed": {
+         "author": "{user}'s premium codes",
+         "title": "Available Premium Key Codes",
+         "description": "Please **Do Not** share these codes wth anyone unless you are willing to give up that code.",
+         "notes": "Click the blacked out text to reveal your code.",
+         "months": "month(s)",
+         "claim": "You can apply your code in the server that you want to activate premium in by using {command}.",
+         "fields": {
+            "codes": "Codes"
+         }
+      },
+      "no_codes": {
+         "title": "No Premium Key Codes available",
+         "description": "You do not have any available premium codes. Please see below on how to obtain premium codes.",
+         "how_to": "How to get Codes",
+         "mistake": "Do you feel that this is incorrect? Please feel free to contact our staff in our support server."
+      },
+      "activate": {
+         "author": "Activating Premium",
+         "has_premium_title": "This server already has premium",
+         "has_premium": "Please wait for the current premium to expire before applying a new code.",
+         "expiring": "Expiring",
+         "never": "Never",
+         "type": "Type",
+         "invalid_code_title": "Invalid Premium Code",
+         "invalid_code": "{code} is not a valid premium code. Please contact our staff in our support server if you feel that this is a mistake.",
+         "error_title": "Failed to activate premium",
+         "error_description": "Looks like you caught an ultra rare error! The error has been logged and we'll be fixing it soon. Join our support server for updates!",
+         "embed": {
+            "title": "Premium Activated!",
+            "description": "Congratulations! Premium has been successfully activated for {guild}!"
+         }
+      },
+      "buttons": {
+         "premium": "Buy Premium",
+         "vote": "Free Premium",
+         "support_server": "Support Server"
+      }
+   }
+}
