@@ -1,0 +1,307 @@
+{
+   "Common": {
+      "Next": "Volgende",
+      "Edit": "Bewerken",
+      "Back": "Terug",
+      "Cancel": "Annuleren",
+      "Finish": "Voltooien",
+      "Bump": "Bump",
+      "Preview": "Voorbeeld",
+      "Customize": "Aanpassen",
+      "True": "Waar",
+      "False": "Onwaar",
+      "Details": "Details",
+      "BumpCount": "Bump Telling",
+      "Created": "Gemaakt",
+      "Members": "Leden",
+      "Boosters": "Boosters",
+      "Language": "Taal",
+      "Rating": "Beoordeling",
+      "Tags": "Tags",
+      "SharedTo": "Gedeeld met",
+      "Servers": "servers",
+      "Reached": "Bereikt",
+      "Users": "gebruikers",
+      "Cooldown": "Bump Wachtijd",
+      "Bumped": "Gebumpt",
+      "Times": "keer",
+      "Review": "Beoordeling",
+      "Report": "Rapporteren",
+      "AdditionalLinks": "Extra Links",
+      "Website": "Website",
+      "Websites": "Websites",
+      "Premium": "Premium",
+      "Support": "Ondersteuning",
+      "SupportServer": "Ondersteuningsserver",
+      "AddBump4You": "Voeg Bump4You toe",
+      "Dashboard": "Dashboard",
+      "Mode": "Modus",
+      "Enable": "Inschakelen",
+      "Disable": "Uitschakelen",
+      "Enabled": "Ingeschakeld",
+      "Disabled": "Uitgeschakeld",
+      "error": "Fout",
+      "errorMessage": "Er is iets misgegaan",
+      "errorDescription": "Het lijkt erop dat je een zeer zeldzame fout hebt ontdekt! De fout is vastgelegd en we zullen deze binnenkort oplossen.",
+      "Time": {
+         "hour": "uur",
+         "hours": "uren",
+         "minutes": "minuten"
+      },
+      "Languages": {
+         "af_AF": "Afrikaans",
+         "de_DE": "Duits",
+         "en_EN": "Engels",
+         "es_ES": "Spaans",
+         "fr_FR": "Frans",
+         "nl_NL": "Nederlands",
+         "ru_RU": "Russisch",
+         "tr_TR": "Turks",
+         "ua_UA": "Oekraïens",
+         "zh_ZH": "Chinese"
+      }
+   },
+
+   "Permissions": {
+      "missingPermissions": "Ontbrekende Machtigingen",
+      "description": "Wauw, ik mis belangrijke machtigingen op deze server! Voeg de volgende machtigingen toe aan Bump4You."
+   },
+
+   "Vote": {
+      "title": "Stem op Bump4You",
+      "consider": "Overweeg om te stemmen voor:"
+   },
+
+   "Reminder": {
+      "title": "Herinnering In-/Uitschakelen",
+      "profile": "{user}'s Profiel"
+   },
+
+   "Ping": {
+      "title": "Pong!",
+      "api": "API Latentie",
+      "client": "Client Latentie"
+   },
+
+   "Leaderboard": {
+      "title": "Bump4You's Bump Ranglijst",
+      "official": "Officiële & Geassocieerde Servers",
+      "topTen": "Top Servers"
+   },
+
+   "Language": {
+      "current": "Huidige taal",
+      "previous": "Vorige taal"
+   },
+
+   "RequestDelete": {
+      "title": "Verzoek om Gegevensverwijdering",
+      "description": "Weet je zeker dat je je opgeslagen gegevens wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "confirm": "Verwijdering Bevestigen",
+      "cancel": "Verzoek is geannuleerd.",
+      "success": "Al je informatie is succesvol verwijderd!"
+   },
+
+   "Banned": {
+      "title": "Server Verbannen",
+      "description": "{guild_name} is verbannen en kan Bump4You niet gebruiken",
+      "information": "Informatie",
+      "reason": "Reden",
+      "id": "ID",
+      "appeal": "Beroep"
+   },
+
+   "BotInfo": {
+      "title": "Informatie van Bump4You",
+      "info": "Bot Informatie",
+      "botStats": "Bot Statistieken",
+      "bot": {
+         "name": "Naam          ➜ {value}",
+         "id": "ID            ➜ {value}",
+         "latency": "Latentie      ➜ {value}",
+         "prefix": "Voorvoegsel   ➜ {value}",
+         "developers": "Ontwikkelaars ➜ {value}"
+      },
+      "stats": {
+         "servers": "Totaal Aantal Servers ➜ {value}",
+         "members": "Totaal Aantal Leden   ➜ {value}",
+         "bumps": "Totaal Aantal Bumps   ➜ {value}",
+         "uptime": "Totale Uptime         ➜ {value}"
+      }
+   },
+
+   "Help": {
+      "title": "Help",
+      "commands": "Commando",
+      "setupGuide": "Instellingshandleiding",
+      "guide": "Hoe gebruik je Bump4You",
+      "guideDescription": "Bump4You maakt het heel eenvoudig om je advertentie in te stellen! Bekijk deze {yt_tutorial} of gebruik ons {dashboard} om je advertentie direct in te stellen!",
+      "guideDescriptionContinued": "Om je advertentie op Discord in te stellen, klik je op de Instellingshandleiding-knop hieronder om de gids te volgen of klik je op de Commando-knop om alle coole commando's van Bump4You te bekijken.",
+      "youtubeTutorial": "YouTube Handleiding",
+      "premium": "Hoe je Premium kunt Krijgen",
+      "premiumDescription": "Er zijn momenteel drie manieren om premium te krijgen:",
+      "premium-1": "Abonneer je op onze {patreon}.",
+      "premium-2": "Stem voor Bump4You op {topgg}.",
+      "premium-3": "Boost onze {support_server}.",
+      "didYouKnow": {
+         "1": "Wist je dat de kleur van groei groen is?",
+         "2": "Wist je dat je de taal van Bump4You kunt veranderen met {command}?"
+      }
+   },
+
+   "Bump": {
+      "title": "Server Succesvol Gebumpt!",
+      "serverNotFound": "Server niet gevonden",
+      "serverNotFoundDescription": "Oeps, het lijkt erop dat deze server niet beschikbaar is.",
+      "autobump": "Bump Uitgeschakeld",
+      "autobumpDescription": "Het bump-commando is uitgeschakeld omdat autobump is ingeschakeld op deze server.",
+      "bumpedBy": "Gebumpt door",
+      "joinServer": "Deelnemen aan Server",
+      "didYouKnow": {
+         "title": "Wist je dat?",
+         "1": "Je kunt premium krijgen door te stemmen voor Bump4You op {top_gg}.",
+         "2": "Met premium kun je je banner veranderen naar een GIF.",
+         "3": "Met premium kun je je kopafbeelding aanpassen.",
+         "4": "Met premium kun je meer tags selecteren.",
+         "5": "Met premium kun je de bump-wachttijd verkorten.",
+         "cooldown": "Je kunt de bump-wachttijd verkorten met {premium}."
+      },
+      "validations": {
+         "bumpFailed": "Bump Mislukt",
+         "cooldown": "De bump-wachttijd is nog niet verstreken!",
+         "channelNotText": "Oeps, je bump-kanaal is geen tekstkanaal. Gebruik {command} om het als tekstkanaal in te stellen.",
+         "channelNotVisible": "Oeps, @everyone kan je bump-kanaal niet zien, ga naar {channel} en verander de standaardtoestemmingen om {permission} toe te staan.",
+         "channelNotAllowed": "Oeps, ik heb ontbrekende toestemmingen! Voeg de volgende toestemmingen in {channel} toe aan Bump4You.",
+         "bumpAgain": "Bump Opnieuw",
+         "lastBumpedBy": "Laatst Gebumpt Door",
+         "nobody": "Niemand"
+      }
+   },
+
+   "Setup": {
+      "Home": {
+         "title": "Serverinstellingen",
+         "welcome": "Welkom bij de serverinstellingen!",
+         "firstTime": {
+            "1": "Het lijkt erop dat dit de eerste keer is dat je deze server instelt! Het wordt aanbevolen om je server in te stellen op het Bump4You-dashboard.",
+            "2": "Wil je het Bump4You-dashboard gebruiken of doorgaan op Discord?"
+         },
+         "existing": {
+            "description": "Het wordt aanbevolen om je server in te stellen op het Bump4You-dashboard, maar je kunt je server ook rechtstreeks op Discord bewerken!",
+            "prompt": "Selecteer een van de volgende opties in het keuzemenu:",
+            "options": {
+               "channel": {
+                  "name": "Bump Kanaal",
+                  "description": "Verander waar Bump4You advertenties verzendt."
+               },
+               "description": {
+                  "name": "Beschrijving",
+                  "description": "Verander de beschrijving van je server."
+               },
+               "color": {
+                  "name": "Kleur",
+                  "description": "Verander de kleur van je bump embed."
+               },
+               "image": {
+                  "name": "Banner",
+                  "description": "Verander de afbeelding van je bump embed."
+               },
+               "tags": {
+                  "name": "Tags",
+                  "description": "Verschijn voor waar gebruikers naar zoeken."
+               }
+            }
+         },
+         "selectMenu": {
+            "placeholder": "Selecteer een optie..."
+         },
+         "Buttons": {
+            "useDashboard": "Gebruik Dashboard",
+            "useDiscord": "Gebruik Discord"
+         }
+      },
+
+      "Channel": {
+         "title": "Kanaal & Uitnodiging",
+         "question": "Waar kan Bump4You advertenties verzenden?",
+         "description": "Je moet een kanaal selecteren voordat Bump4You je advertenties en andere advertenties kan verzenden",
+         "currentChannel": "Huidig Bump Kanaal",
+         "channelNotFound": "Geen kanaal gevonden",
+         "selectChannel": "Selecteer een kanaal...",
+         "currentInviteLink": "Huidige Uitnodigingslink",
+         "linkNotFound": "Geen uitnodigingslink gevonden"
+      },
+
+      "Description": {
+         "title": "Beschrijving",
+         "question": "Waar gaat je server over?",
+         "description": "Je moet een beschrijving invoeren die leden overtuigt om zich bij je server aan te sluiten.",
+         "preview": "Voorbeeld",
+         "notFound": "Geen beschrijving gevonden",
+         "tips": {
+            "title": "Tips",
+            "1": {
+               "title": "Tip 1",
+               "description": "Je beschrijving moet benadrukken waar je server over gaat en wat een lid normaal gesproken op je server zou doen."
+            },
+            "2": {
+               "title": "Tip 2",
+               "description": "Je moet je beschrijving laten opvallen. Maak het uniek en aantrekkelijk door verschillende emoji's te gebruiken om leden te overtuigen om zich aan te sluiten."
+            },
+            "3": {
+               "title": "Tip 3",
+               "description": "Een goede beschrijving is essentieel om nieuwe leden aan te trekken, dus wees duidelijk om je server te tonen."
+            }
+         },
+         "modal": {
+            "title": "Stel een Beschrijving In",
+            "label": "Voer de beschrijving van je server in",
+            "placeholder": "Onthoud de beschrijvingstips..."
+         }
+      },
+
+      "Color": {
+         "title": "Stel een kleur in",
+         "question": "Welke kleur zou mooi passen?",
+         "description": "Kies een kleur die bij je server past. Je kunt een vooraf ingestelde kleur kiezen of een eigen kleur invoeren met een HEX-code.",
+         "preview": "Huidige Kleur",
+         "invalid": "De gekozen aangepaste kleur is ongeldig.",
+         "modal": {
+            "title": "Stel een aangepaste kleur in",
+            "label": "Voer een HEX-code in"
+         },
+         "selectMenu": {
+            "placeholder": "Selecteer een kleur..."
+         }
+      },
+
+      "Image": {
+         "title": "Bannerafbeelding",
+         "prompt": "Probeer een coole afbeelding!",
+         "description": "Je kunt de afbeelding onder je advertentie wijzigen in een statische afbeelding. Vergeet niet om de afbeeldingsextensie toe te voegen.",
+         "animated": "Geanimeerde Afbeelding",
+         "invalidURL": "Ongeldige Afbeeldings-URL",
+         "webpage": "De afbeeldings-URL verwijst naar een webpagina en niet naar een afbeelding. Probeer de extensie toe te voegen aan je link zoals .png",
+         "premiumRequired": "Je hebt Bump4You Premium nodig om toegang te krijgen tot geanimeerde bannerafbeeldingen.",
+         "modal": {
+            "title": "Stel Afbeeldings-URL in",
+            "label": "Voer een afbeeldings-URL in",
+            "placeholder": "Laat leeg voor standaard..."
+         }
+      },
+
+      "Tags": {
+         "title": "Selecteer enkele Tags",
+         "question": "Welke woorden beschrijven je server?",
+         "description": "Om de tags van je server te wijzigen, gebruik de Bump4You-website, omdat de huidige interface van Discord geen aangepaste tags ondersteunt.",
+         "preview": "Huidige Tags",
+         "notFound": "Geen tags gevonden"
+      },
+
+      "Complete": {
+         "title": "Gefeliciteerd, je server is ingesteld!",
+         "description": "Je kunt nu beginnen met bumpen van je server, of je kunt je server verder aanpassen door afbeeldingen, kleuren en meer te wijzigen.",
+         "view": "Bekijk deze server op de Bump4You-website"
+      }
+   }
+}

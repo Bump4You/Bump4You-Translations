@@ -1,0 +1,307 @@
+{
+   "Common": {
+      "Next": "下一步",
+      "Edit": "编辑",
+      "Back": "返回",
+      "Cancel": "取消",
+      "Finish": "完成",
+      "Bump": "Bump",
+      "Preview": "预览",
+      "Customize": "自定义",
+      "True": "是",
+      "False": "否",
+      "Details": "详情",
+      "BumpCount": "Bump 计数",
+      "Created": "创建时间",
+      "Members": "成员",
+      "Boosters": "增幅者",
+      "Language": "语言",
+      "Rating": "评分",
+      "Tags": "标签",
+      "SharedTo": "共享至",
+      "Servers": "服务器",
+      "Reached": "已达到",
+      "Users": "用户",
+      "Cooldown": "Bump 冷却时间",
+      "Bumped": "已 Bump",
+      "Times": "次",
+      "Review": "评论",
+      "Report": "举报",
+      "AdditionalLinks": "附加链接",
+      "Website": "网站",
+      "Websites": "网站",
+      "Premium": "高级",
+      "Support": "支持",
+      "SupportServer": "支持服务器",
+      "AddBump4You": "添加 Bump4You",
+      "Dashboard": "仪表盘",
+      "Mode": "模式",
+      "Enable": "启用",
+      "Disable": "禁用",
+      "Enabled": "已启用",
+      "Disabled": "已禁用",
+      "error": "错误",
+      "errorMessage": "出了点问题",
+      "errorDescription": "看起来您发现了一个极其罕见的错误！错误已记录，我们会尽快修复。",
+      "Time": {
+         "hour": "小时",
+         "hours": "小时",
+         "minutes": "分钟"
+      },
+      "Languages": {
+         "af_ZA": "南非荷兰语",
+         "de_DE": "德语",
+         "en_EN": "英语",
+         "es_ES": "西班牙语",
+         "fr_FR": "法语",
+         "nl_NL": "荷兰语",
+         "ru_RU": "俄语",
+         "tr_TR": "土耳其",
+         "ua_UA": "乌克兰语",
+         "zh_ZH": "中国人"
+      }
+   },
+
+   "Permissions": {
+      "missingPermissions": "缺少权限",
+      "description": "哇，我在这个服务器上缺少一些非常重要的权限！请为 Bump4You 添加以下权限。"
+   },
+
+   "Vote": {
+      "title": "为 Bump4You 投票",
+      "consider": "请考虑为以下内容投票："
+   },
+
+   "Reminder": {
+      "title": "切换提醒",
+      "profile": "{user} 的个人资料"
+   },
+
+   "Ping": {
+      "title": "乒乓！",
+      "api": "API 延迟",
+      "client": "客户端延迟"
+   },
+
+   "Leaderboard": {
+      "title": "Bump4You 的 Bump 排行榜",
+      "official": "官方和合作服务器",
+      "topTen": "顶级服务器"
+   },
+
+   "Language": {
+      "current": "当前语言",
+      "previous": "上一个语言"
+   },
+
+   "RequestDelete": {
+      "title": "请求删除数据",
+      "description": "确定要删除您的保存数据吗？此操作无法撤销。",
+      "confirm": "确认删除",
+      "cancel": "请求已取消。",
+      "success": "您的所有信息已成功删除！"
+   },
+
+   "Banned": {
+      "title": "服务器已被禁用",
+      "description": "{guild_name} 已被禁用，无法使用 Bump4You",
+      "information": "信息",
+      "reason": "原因",
+      "id": "ID",
+      "appeal": "申诉"
+   },
+
+   "BotInfo": {
+      "title": "Bump4You 信息",
+      "info": "机器人信息",
+      "botStats": "机器人统计",
+      "bot": {
+         "name": "名称   ➜ {value}",
+         "id": "ID    ➜ {value}",
+         "latency": "延迟   ➜ {value}",
+         "prefix": "前缀   ➜ {value}",
+         "developers": "开发者 ➜ {value}"
+      },
+      "stats": {
+         "servers": "服务器总数 ➜ {value}",
+         "members": "成员总数   ➜ {value}",
+         "bumps": "Bump 总数 ➜ {value}",
+         "uptime": "总运行时间 ➜ {value}"
+      }
+   },
+
+   "Help": {
+      "title": "帮助",
+      "commands": "命令",
+      "setupGuide": "设置指南",
+      "guide": "如何使用 Bump4You",
+      "guideDescription": "Bump4You 让您可以轻松设置广告！查看此 {yt_tutorial} 或使用我们的 {dashboard} 直接设置您的广告！",
+      "guideDescriptionContinued": "要在 Discord 上设置您的广告，请点击下面的“设置指南”按钮以查看指南，或点击“命令”按钮查看 Bump4You 的所有酷炫命令。",
+      "youtubeTutorial": "YouTube 教程",
+      "premium": "如何获得高级",
+      "premiumDescription": "目前有三种方式可以获得高级服务：",
+      "premium-1": "订阅我们的 {patreon}。",
+      "premium-2": "在 {topgg} 上为 Bump4You 投票。",
+      "premium-3": "提升我们的 {support_server}。",
+      "didYouKnow": {
+         "1": "您知道成长的颜色是绿色吗？",
+         "2": "您知道可以使用 {command} 更改 Bump4You 的语言吗？"
+      }
+   },
+
+   "Bump": {
+      "title": "服务器成功 Bump！",
+      "serverNotFound": "未找到服务器",
+      "serverNotFoundDescription": "哎呀，看起来该服务器不可用。",
+      "autobump": "Bump 已禁用",
+      "autobumpDescription": "Bump 命令已禁用，因为该服务器上启用了自动 Bump。",
+      "bumpedBy": "Bump 发起人",
+      "joinServer": "加入服务器",
+      "didYouKnow": {
+         "title": "您知道吗？",
+         "1": "您可以通过在 {top_gg} 上为 Bump4You 投票来获得高级服务。",
+         "2": "使用高级服务可以将您的横幅更改为 GIF。",
+         "3": "使用高级服务可以更改您的头部图像。",
+         "4": "使用高级服务可以选择更多标签。",
+         "5": "使用高级服务可以减少 Bump 冷却时间。",
+         "cooldown": "您可以使用 {premium} 来减少 Bump 冷却时间。"
+      },
+      "validations": {
+         "bumpFailed": "Bump 失败",
+         "cooldown": "Bump 冷却时间尚未到期！",
+         "channelNotText": "哎呀，您的 Bump 频道不是文字频道。请使用 {command} 将其设置为文字频道。",
+         "channelNotVisible": "哎呀，@everyone 无法查看您的 Bump 频道，请前往 {channel} 并更改默认权限以允许 {permission}。",
+         "channelNotAllowed": "哎呀，我缺少权限！请在 {channel} 中为 Bump4You 添加以下权限。",
+         "bumpAgain": "再次 Bump",
+         "lastBumpedBy": "上次 Bump 发起人",
+         "nobody": "无"
+      }
+   },
+
+   "Setup": {
+      "Home": {
+         "title": "服务器设置",
+         "welcome": "欢迎来到服务器设置！",
+         "firstTime": {
+            "1": "看起来这是您第一次设置此服务器！建议您在 Bump4You 仪表盘上设置服务器。",
+            "2": "是否要使用 Bump4You 仪表盘或继续在 Discord 上设置？"
+         },
+         "existing": {
+            "description": "建议您在 Bump4You 仪表盘上设置服务器，但您仍然可以直接在 Discord 上编辑服务器！",
+            "prompt": "请在下拉菜单中选择以下选项之一：",
+            "options": {
+               "channel": {
+                  "name": "Bump 频道",
+                  "description": "更改 Bump4You 发送广告的频道。"
+               },
+               "description": {
+                  "name": "描述",
+                  "description": "更改您的服务器描述。"
+               },
+               "color": {
+                  "name": "颜色",
+                  "description": "更改 Bump 嵌入的颜色。"
+               },
+               "image": {
+                  "name": "横幅",
+                  "description": "更改 Bump 嵌入的图像。"
+               },
+               "tags": {
+                  "name": "标签",
+                  "description": "为用户搜索显示。"
+               }
+            }
+         },
+         "selectMenu": {
+            "placeholder": "请选择一个选项..."
+         },
+         "Buttons": {
+            "useDashboard": "使用仪表盘",
+            "useDiscord": "使用 Discord"
+         }
+      },
+
+      "Channel": {
+         "title": "频道 & 邀请",
+         "question": "Bump4You 可以在哪里发送广告？",
+         "description": "您需要选择一个频道，才能让 Bump4You 开始发送您的广告和其他广告",
+         "currentChannel": "当前 Bump 频道",
+         "channelNotFound": "未找到频道",
+         "selectChannel": "请选择一个频道...",
+         "currentInviteLink": "当前邀请链接",
+         "linkNotFound": "未找到邀请链接"
+      },
+
+      "Description": {
+         "title": "描述",
+         "question": "您的服务器是关于什么的？",
+         "description": "您应该输入一个描述，以吸引成员加入您的服务器。",
+         "preview": "预览",
+         "notFound": "未找到描述",
+         "tips": {
+            "title": "提示",
+            "1": {
+               "title": "提示 1",
+               "description": "您的描述应突出您的服务器主题，以及成员通常会在您的服务器上做什么。"
+            },
+            "2": {
+               "title": "提示 2",
+               "description": "使您的描述独特而吸引人。使用不同的表情符号来吸引成员加入。"
+            },
+            "3": {
+               "title": "提示 3",
+               "description": "良好的描述对于吸引新成员至关重要，因此请清楚地展示您的服务器。"
+            }
+         },
+         "modal": {
+            "title": "设置描述",
+            "label": "请输入您的服务器描述",
+            "placeholder": "请记住描述提示..."
+         }
+      },
+
+      "Color": {
+         "title": "设置颜色",
+         "question": "什么颜色更适合？",
+         "description": "选择一个适合您的服务器的酷炫颜色；您可以选择预设颜色或输入自己的 HEX 代码。",
+         "preview": "当前颜色",
+         "invalid": "所选的自定义颜色无效。",
+         "modal": {
+            "title": "设置自定义颜色",
+            "label": "请输入 HEX 代码"
+         },
+         "selectMenu": {
+            "placeholder": "请选择一个颜色..."
+         }
+      },
+
+      "Image": {
+         "title": "横幅图像",
+         "prompt": "试试一个酷炫的图像！",
+         "description": "您可以将广告下方的图像更改为任何静态图像，请记得添加图像扩展名。",
+         "animated": "动画图像",
+         "invalidURL": "无效的图像 URL",
+         "webpage": "图像 URL 指向一个网页，而不是图像。请尝试在链接中添加扩展名，例如 .png",
+         "premiumRequired": "您需要 Bump4You 高级版才能访问动画横幅图像。",
+         "modal": {
+            "title": "设置图像 URL",
+            "label": "请输入图像 URL",
+            "placeholder": "保留空白以使用默认设置..."
+         }
+      },
+
+      "Tags": {
+         "title": "选择一些标签",
+         "question": "哪些词描述您的服务器？",
+         "description": "要更改您的服务器标签，请使用 Bump4You 网站，因为当前的 Discord 界面不支持自定义标签。",
+         "preview": "当前标签",
+         "notFound": "未找到标签"
+      },
+
+      "Complete": {
+         "title": "恭喜，您的服务器已设置完成！",
+         "description": "现在您可以开始 Bump 您的服务器，或进一步自定义以更改图像、颜色等内容！",
+         "view": "在 Bump4You 网站上查看此服务器"
+      }
+   }
+}

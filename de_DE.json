@@ -1,0 +1,307 @@
+{
+   "Common": {
+      "Next": "Weiter",
+      "Edit": "Bearbeiten",
+      "Back": "Zurück",
+      "Cancel": "Abbrechen",
+      "Finish": "Fertig",
+      "Bump": "Bump",
+      "Preview": "Vorschau",
+      "Customize": "Anpassen",
+      "True": "Wahr",
+      "False": "Falsch",
+      "Details": "Details",
+      "BumpCount": "Bump-Anzahl",
+      "Created": "Erstellt",
+      "Members": "Mitglieder",
+      "Boosters": "Booster",
+      "Language": "Sprache",
+      "Rating": "Bewertung",
+      "Tags": "Tags",
+      "SharedTo": "Geteilt mit",
+      "Servers": "Server",
+      "Reached": "Erreicht",
+      "Users": "Benutzer",
+      "Cooldown": "Bump-Abklingzeit",
+      "Bumped": "Gebumpt",
+      "Times": "Mal",
+      "Review": "Bewerten",
+      "Report": "Melden",
+      "AdditionalLinks": "Zusätzliche Links",
+      "Website": "Webseite",
+      "Websites": "Webseiten",
+      "Premium": "Premium",
+      "Support": "Unterstützung",
+      "SupportServer": "Support-Server",
+      "AddBump4You": "Füge Bump4You hinzu",
+      "Dashboard": "Dashboard",
+      "Mode": "Modus",
+      "Enable": "Aktivieren",
+      "Disable": "Deaktivieren",
+      "Enabled": "Aktiviert",
+      "Disabled": "Deaktiviert",
+      "error": "Fehler",
+      "errorMessage": "Etwas ist schiefgelaufen",
+      "errorDescription": "Es sieht aus, als hättest du einen ultra seltenen Fehler gefunden! Der Fehler wurde protokolliert, und wir werden ihn bald beheben.",
+      "Time": {
+         "hour": "Stunde",
+         "hours": "Stunden",
+         "minutes": "Minuten"
+      },
+      "Languages": {
+         "af_ZA": "Afrikaans",
+         "de_DE": "Deutsch",
+         "en_EN": "Englisch",
+         "es_ES": "Spanisch",
+         "fr_FR": "Französisch",
+         "nl_NL": "Niederländisch",
+         "ru_RU": "Russisch",
+         "tr_TR": "Türkisch",
+         "ua_UA": "Ukrainisch",
+         "zh_ZH": "chinesisch"
+      }
+   },
+
+   "Permissions": {
+      "missingPermissions": "Fehlende Berechtigungen",
+      "description": "Oh nein, mir fehlen sehr wichtige Berechtigungen auf diesem Server! Bitte füge die folgenden Berechtigungen zu Bump4You hinzu."
+   },
+
+   "Vote": {
+      "title": "Stimme für Bump4You ab",
+      "consider": "Überlege, dafür abzustimmen:"
+   },
+
+   "Reminder": {
+      "title": "Erinnerung umschalten",
+      "profile": "{user}'s Profil"
+   },
+
+   "Ping": {
+      "title": "Pong!",
+      "api": "API-Latenz",
+      "client": "Client-Latenz"
+   },
+
+   "Leaderboard": {
+      "title": "Bump4You's Bump-Bestenliste",
+      "official": "Offizielle und Partner-Server",
+      "topTen": "Top-Server"
+   },
+
+   "Language": {
+      "current": "Aktuelle Sprache",
+      "previous": "Vorherige Sprache"
+   },
+
+   "RequestDelete": {
+      "title": "Löschanforderung für Daten",
+      "description": "Bist du sicher, dass du deine gespeicherten Daten löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Löschen bestätigen",
+      "cancel": "Anfrage wurde abgebrochen.",
+      "success": "Alle deine Informationen wurden erfolgreich gelöscht!"
+   },
+
+   "Banned": {
+      "title": "Server gesperrt",
+      "description": "{guild_name} wurde gesperrt und kann Bump4You nicht mehr verwenden",
+      "information": "Informationen",
+      "reason": "Grund",
+      "id": "ID",
+      "appeal": "Berufung"
+   },
+
+   "BotInfo": {
+      "title": "Bump4You's Informationen",
+      "info": "Bot-Informationen",
+      "botStats": "Bot-Statistiken",
+      "bot": {
+         "name": "Name       ➜ {value}",
+         "id": "ID         ➜ {value}",
+         "latency": "Latenz     ➜ {value}",
+         "prefix": "Präfix     ➜ {value}",
+         "developers": "Entwickler ➜ {value}"
+      },
+      "stats": {
+         "servers": "Gesamtserver         ➜ {value}",
+         "members": "Gesamtmitglieder     ➜ {value}",
+         "bumps": "Gesamtbumps          ➜ {value}",
+         "uptime": "Gesamte Betriebszeit ➜ {value}"
+      }
+   },
+
+   "Help": {
+      "title": "Hilfe",
+      "commands": "Befehl",
+      "setupGuide": "Einrichtungsanleitung",
+      "guide": "So verwendest du Bump4You",
+      "guideDescription": "Bump4You macht es sehr einfach, deine Werbung einzurichten! Schau dir dieses {yt_tutorial} an oder nutze unser {dashboard}, um deine Werbung direkt einzurichten!",
+      "guideDescriptionContinued": "Um deine Werbung auf Discord einzurichten, klicke auf die Setup-Guide-Schaltfläche unten, um der Anleitung zu folgen, oder klicke auf die Befehl-Schaltfläche, um alle coolen Befehle von Bump4You zu sehen.",
+      "youtubeTutorial": "YouTube-Tutorial",
+      "premium": "So erhältst du Premium",
+      "premiumDescription": "Derzeit gibt es drei Möglichkeiten, Premium zu erhalten:",
+      "premium-1": "Abonniere unser {patreon}.",
+      "premium-2": "Stimme für Bump4You auf {topgg} ab.",
+      "premium-3": "Booste unseren {support_server}.",
+      "didYouKnow": {
+         "1": "Wusstest du, dass die Farbe des Wachstums grün ist?",
+         "2": "Wusstest du, dass du die Sprache von Bump4You mit {command} ändern kannst?"
+      }
+   },
+
+   "Bump": {
+      "title": "Server erfolgreich gebumpt!",
+      "serverNotFound": "Server nicht gefunden",
+      "serverNotFoundDescription": "Hoppla, es sieht so aus, als ob dieser Server nicht verfügbar ist.",
+      "autobump": "Bump deaktiviert",
+      "autobumpDescription": "Der Bump-Befehl ist deaktiviert, weil Autobump auf diesem Server aktiviert ist.",
+      "bumpedBy": "Gebumpt von",
+      "joinServer": "Server beitreten",
+      "didYouKnow": {
+         "title": "Wusstest du?",
+         "1": "Du kannst Premium erhalten, indem du für Bump4You auf {top_gg} abstimmst.",
+         "2": "Mit Premium kannst du dein Banner in ein GIF ändern.",
+         "3": "Mit Premium kannst du dein Kopfzeilenbild ändern.",
+         "4": "Mit Premium kannst du mehr Tags auswählen.",
+         "5": "Mit Premium kannst du deine Bump-Abklingzeit verringern.",
+         "cooldown": "Du kannst deine Bump-Abklingzeit mit {premium} verringern."
+      },
+      "validations": {
+         "bumpFailed": "Bump fehlgeschlagen",
+         "cooldown": "Die Bump-Abklingzeit ist noch nicht abgelaufen!",
+         "channelNotText": "Hoppla, dein Bump-Kanal ist kein Textkanal. Verwende {command}, um ihn auf einen Textkanal zu setzen.",
+         "channelNotVisible": "Hoppla, @everyone kann deinen Bump-Kanal nicht sehen. Gehe zu {channel} und ändere die Standardberechtigungen, um {permission} zu erlauben.",
+         "channelNotAllowed": "Hoppla, mir fehlen Berechtigungen! Bitte füge die folgenden Berechtigungen in {channel} zu Bump4You hinzu.",
+         "bumpAgain": "Erneut bumpen",
+         "lastBumpedBy": "Zuletzt gebumpt von",
+         "nobody": "Niemand"
+      }
+   },
+
+   "Setup": {
+      "Home": {
+         "title": "Server-Setup",
+         "welcome": "Willkommen beim Server-Setup!",
+         "firstTime": {
+            "1": "Es sieht so aus, als wäre dies dein erstes Mal beim Einrichten dieses Servers! Es wird empfohlen, deinen Server im Bump4You-Dashboard einzurichten.",
+            "2": "Möchtest du das Bump4You-Dashboard verwenden oder auf Discord weitermachen?"
+         },
+         "existing": {
+            "description": "Es wird empfohlen, deinen Server im Bump4You-Dashboard einzurichten, aber du kannst deinen Server auch direkt auf Discord bearbeiten!",
+            "prompt": "Bitte wähle eine der folgenden Optionen im Auswahlmenü:",
+            "options": {
+               "channel": {
+                  "name": "Bump-Kanal",
+                  "description": "Ändere, wohin Bump4You Werbung sendet."
+               },
+               "description": {
+                  "name": "Beschreibung",
+                  "description": "Ändere die Beschreibung deines Servers."
+               },
+               "color": {
+                  "name": "Farbe",
+                  "description": "Ändere die Farbe deines Bump-Embeds."
+               },
+               "image": {
+                  "name": "Banner",
+                  "description": "Ändere das Bild deines Bump-Embeds."
+               },
+               "tags": {
+                  "name": "Tags",
+                  "description": "Erscheint bei der Suche nach dem, wonach Benutzer suchen."
+               }
+            }
+         },
+         "selectMenu": {
+            "placeholder": "Bitte wähle eine Option..."
+         },
+         "Buttons": {
+            "useDashboard": "Dashboard verwenden",
+            "useDiscord": "Discord verwenden"
+         }
+      },
+
+      "Channel": {
+         "title": "Kanal & Einladung",
+         "question": "Wohin kann Bump4You Werbung senden?",
+         "description": "Du musst einen Kanal auswählen, bevor Bump4You deine und andere Werbung senden kann",
+         "currentChannel": "Aktueller Bump-Kanal",
+         "channelNotFound": "Kein Kanal gefunden",
+         "selectChannel": "Bitte wähle einen Kanal...",
+         "currentInviteLink": "Aktueller Einladung Link",
+         "linkNotFound": "Kein Einladungslink gefunden"
+      },
+
+      "Description": {
+         "title": "Beschreibung",
+         "question": "Worum geht es bei deinem Server?",
+         "description": "Du solltest eine Beschreibung eingeben, die Mitglieder davon überzeugt, deinem Server beizutreten.",
+         "preview": "Vorschau",
+         "notFound": "Keine Beschreibung gefunden",
+         "tips": {
+            "title": "Tipps",
+            "1": {
+               "title": "Tipp 1",
+               "description": "Deine Beschreibung sollte hervorheben, worum es bei deinem Server geht und was ein Mitglied normalerweise auf deinem Server tun würde."
+            },
+            "2": {
+               "title": "Tipp 2",
+               "description": "Du musst deine Beschreibung von anderen abheben. Mache deine Beschreibung einzigartig und attraktiv, indem du verschiedene Emojis verwendest, um Mitglieder zum Beitritt zu überzeugen."
+            },
+            "3": {
+               "title": "Tipp 3",
+               "description": "Eine gute Beschreibung ist entscheidend, um neue Mitglieder zu gewinnen. Daher musst du auf den Punkt kommen, um deinen Server klar zu präsentieren."
+            }
+         },
+         "modal": {
+            "title": "Eine Beschreibung festlegen",
+            "label": "Bitte gib die Beschreibung deines Servers ein",
+            "placeholder": "Denke an die Beschreibungstipps..."
+         }
+      },
+
+      "Color": {
+         "title": "Farbe festlegen",
+         "question": "Welche Farbe würde gut passen?",
+         "description": "Wähle eine coole Farbe, die zu deinem Server passt. Du kannst eine vordefinierte Farbe auswählen oder deine eigene mit einem Hex-Code wählen.",
+         "preview": "Aktuelle Farbe",
+         "invalid": "Die gewählte benutzerdefinierte Farbe ist ungültig.",
+         "modal": {
+            "title": "Benutzerdefinierte Farbe festlegen",
+            "label": "Bitte gib einen HEX-Code ein"
+         },
+         "selectMenu": {
+            "placeholder": "Bitte wähle eine Farbe..."
+         }
+      },
+
+      "Image": {
+         "title": "Banner-Bild",
+         "prompt": "Probier ein cooles Bild aus!",
+         "description": "Du kannst das Bild unter deiner Werbung in ein beliebiges statisches Bild ändern, denke nur daran, die Bild-Erweiterung hinzuzufügen.",
+         "animated": "Animiertes Bild",
+         "invalidURL": "Ungültige Bild-URL",
+         "webpage": "Die Bild-URL verweist auf eine Webseite und nicht auf ein Bild. Versuche, die Erweiterung wie .png hinzuzufügen.",
+         "premiumRequired": "Du benötigst Bump4You Premium, um auf animierte Bannerbilder zuzugreifen.",
+         "modal": {
+            "title": "Bild-URL festlegen",
+            "label": "Bitte gib eine Bild-URL ein",
+            "placeholder": "Für Standard leer lassen..."
+         }
+      },
+
+      "Tags": {
+         "title": "Wähle einige Tags",
+         "question": "Welche Wörter beschreiben deinen Server?",
+         "description": "Um die Tags deines Servers zu ändern, verwende bitte die Bump4You-Website, da Discords aktuelle Benutzeroberfläche keine benutzerdefinierten Tags unterstützt.",
+         "preview": "Aktuelle Tags",
+         "notFound": "Keine Tags gefunden"
+      },
+
+      "Complete": {
+         "title": "Herzlichen Glückwunsch, dein Server ist eingerichtet!",
+         "description": "Du kannst jetzt mit dem Bumpen deines Servers beginnen oder deinen Server weiter anpassen, um Bilder, Farben und mehr zu ändern!",
+         "view": "Diesen Server auf der Bump4You-Webseite anzeigen"
+      }
+   }
+}

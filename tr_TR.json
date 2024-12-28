@@ -1,0 +1,307 @@
+{
+   "Common": {
+      "Next": "Sonraki",
+      "Edit": "Düzenle",
+      "Back": "Geri",
+      "Cancel": "İptal",
+      "Finish": "Bitir",
+      "Bump": "Bump",
+      "Preview": "Önizleme",
+      "Customize": "Özelleştir",
+      "True": "Doğru",
+      "False": "Yanlış",
+      "Details": "Detaylar",
+      "BumpCount": "Bump Sayısı",
+      "Created": "Oluşturuldu",
+      "Members": "Üyeler",
+      "Boosters": "Destekçiler",
+      "Language": "Dil",
+      "Rating": "Puan",
+      "Tags": "Etiketler",
+      "SharedTo": "Paylaşılan",
+      "Servers": "sunucular",
+      "Reached": "Ulaşıldı",
+      "Users": "kullanıcılar",
+      "Cooldown": "Bump Bekleme Süresi",
+      "Bumped": "Bumplandı",
+      "Times": "kez",
+      "Review": "İnceleme",
+      "Report": "Rapor",
+      "AdditionalLinks": "Ek Bağlantılar",
+      "Website": "Web Sitesi",
+      "Websites": "Web Siteleri",
+      "Premium": "Premium",
+      "Support": "Destek",
+      "SupportServer": "Destek Sunucusu",
+      "AddBump4You": "Bump4You'yu Ekle",
+      "Dashboard": "Gösterge Paneli",
+      "Mode": "Mod",
+      "Enable": "Etkinleştir",
+      "Disable": "Devre Dışı Bırak",
+      "Enabled": "Etkin",
+      "Disabled": "Devre Dışı",
+      "error": "Hata",
+      "errorMessage": "Bir şeyler yanlış gitti",
+      "errorDescription": "Görünüşe göre nadir bir hata yakaladınız! Hata kaydedildi ve yakında düzelteceğiz.",
+      "Time": {
+         "hour": "saat",
+         "hours": "saat",
+         "minutes": "dakika"
+      },
+      "Languages": {
+         "af_ZA": "Afrikaans",
+         "de_DE": "Almanca",
+         "en_EN": "İngilizce",
+         "es_ES": "İspanyol",
+         "fr_FR": "Fransızca",
+         "nl_NL": "Flemenkçe",
+         "ru_RU": "Rusça",
+         "tr_TR": "Türkçe",
+         "ua_UA": "Ukraynaca",
+         "zh_ZH": "Çince"
+      }
+   },
+
+   "Permissions": {
+      "missingPermissions": "Eksik İzinler",
+      "description": "Vay canına, bu sunucuda çok önemli izinlerim eksik! Lütfen Bump4You'ya aşağıdaki izinleri ekleyin."
+   },
+
+   "Vote": {
+      "title": "Bump4You için Oy Ver",
+      "consider": "Oy vermeyi düşünün:"
+   },
+
+   "Reminder": {
+      "title": "Hatırlatıcıyı Aç/Kapat",
+      "profile": "{user}’in Profili"
+   },
+
+   "Ping": {
+      "title": "Pong!",
+      "api": "API Gecikmesi",
+      "client": "İstemci Gecikmesi"
+   },
+
+   "Leaderboard": {
+      "title": "Bump4You'nun Bump Lider Tablosu",
+      "official": "Resmi & Partner Sunucuları",
+      "topTen": "En İyi Sunucular"
+   },
+
+   "Language": {
+      "current": "Mevcut dil",
+      "previous": "Önceki dil"
+   },
+
+   "RequestDelete": {
+      "title": "Veri Silme Talebi",
+      "description": "Hakkınızda kaydedilen verileri silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "confirm": "Silme İşlemini Onayla",
+      "cancel": "İstek iptal edildi.",
+      "success": "Tüm bilgileriniz başarıyla silindi!"
+   },
+
+   "Banned": {
+      "title": "Sunucu Yasaklandı",
+      "description": "{guild_name} yasaklandı ve Bump4You'yu kullanamayacak",
+      "information": "Bilgi",
+      "reason": "Sebep",
+      "id": "ID",
+      "appeal": "İtiraz"
+   },
+
+   "BotInfo": {
+      "title": "Bump4You'nun Bilgileri",
+      "info": "Bot Bilgileri",
+      "botStats": "Bot İstatistikleri",
+      "bot": {
+         "name": "Adı            ➜ {value}",
+         "id": "ID             ➜ {value}",
+         "latency": "Gecikme        ➜ {value}",
+         "prefix": "Ön Ek          ➜ {value}",
+         "developers": "Geliştiriciler ➜ {value}"
+      },
+      "stats": {
+         "servers": "Toplam Sunucular      ➜ {value}",
+         "members": "Toplam Üyeler         ➜ {value}",
+         "bumps": "Toplam Bumps          ➜ {value}",
+         "uptime": "Toplam Çalışma Süresi ➜ {value}"
+      }
+   },
+
+   "Help": {
+      "title": "Yardım",
+      "commands": "Komut",
+      "setupGuide": "Kurulum Kılavuzu",
+      "guide": "Bump4You Nasıl Kullanılır",
+      "guideDescription": "Bump4You, reklamınızı kurmayı çok kolaylaştırıyor! Bu {yt_tutorial} izleyin veya doğrudan reklamınızı ayarlamak için {dashboard} kullanın!",
+      "guideDescriptionContinued": "Discord’da reklamınızı kurmak için aşağıdaki Kurulum Kılavuzu butonuna tıklayın veya Bump4You’nun tüm harika komutlarını görmek için Komutlar butonuna tıklayın.",
+      "youtubeTutorial": "YouTube Kılavuzu",
+      "premium": "Premium Nasıl Alınır",
+      "premiumDescription": "Şu anda premium almanın üç yolu var:",
+      "premium-1": "Patreon'umuza {patreon} abone olun.",
+      "premium-2": "Bump4You için {topgg} oyu verin.",
+      "premium-3": "Destek sunucumuzu {support_server} boost edin.",
+      "didYouKnow": {
+         "1": "Biliyor muydunuz? Büyümenin rengi yeşildir.",
+         "2": "Biliyor muydunuz? {command} kullanarak Bump4You'nun dilini değiştirebilirsiniz."
+      }
+   },
+
+   "Bump": {
+      "title": "Sunucu Başarıyla Bumplandı!",
+      "serverNotFound": "Sunucu bulunamadı",
+      "serverNotFoundDescription": "Oops, görünüşe göre bu sunucu mevcut değil.",
+      "autobump": "Bump Devre Dışı",
+      "autobumpDescription": "Bump komutu devre dışı çünkü bu sunucuda otomatik bump etkin.",
+      "bumpedBy": "Tarafından Bumplandı",
+      "joinServer": "Sunucuya Katıl",
+      "didYouKnow": {
+         "title": "Biliyor muydunuz?",
+         "1": "{top_gg} üzerinde Bump4You için oy vererek premium alabilirsiniz.",
+         "2": "Premium ile bannerınızı bir GIF’e dönüştürebilirsiniz.",
+         "3": "Premium ile başlık görselinizi değiştirebilirsiniz.",
+         "4": "Premium ile daha fazla etiket seçebilirsiniz.",
+         "5": "Premium ile bump bekleme sürenizi azaltabilirsiniz.",
+         "cooldown": "{premium} ile bump bekleme sürenizi azaltabilirsiniz."
+      },
+      "validations": {
+         "bumpFailed": "Bump Başarısız",
+         "cooldown": "Bump bekleme süresi henüz dolmadı!",
+         "channelNotText": "Vay canına, bump kanalınız bir metin kanalı değil. Bunu bir metin kanalı olarak ayarlamak için {command} kullanın.",
+         "channelNotVisible": "Vay canına, @everyone bump kanalınızı göremiyor, lütfen {channel} gidin ve varsayılan izinleri {permission} izni verecek şekilde değiştirin.",
+         "channelNotAllowed": "Vay canına, eksik izinlerim var! Lütfen {channel} içindeki Bump4You için aşağıdaki izinleri ekleyin.",
+         "bumpAgain": "Tekrar Bump",
+         "lastBumpedBy": "Son Bumplandı Tarafından",
+         "nobody": "Kimse"
+      }
+   },
+
+   "Setup": {
+      "Home": {
+         "title": "Sunucu Kurulumu",
+         "welcome": "Sunucu kurulumuna hoş geldiniz!",
+         "firstTime": {
+            "1": "Görünüşe göre bu sunucuyu ilk kez kuruyorsunuz! Sunucunuzu Bump4You Gösterge Paneli'nde kurmanız önerilir.",
+            "2": "Bump4You Gösterge Paneli'ni mi kullanmak istersiniz yoksa Discord'da devam etmek mi?"
+         },
+         "existing": {
+            "description": "Sunucunuzu Bump4You Gösterge Paneli'nde kurmanız önerilir, ancak sunucunuzu doğrudan Discord'da da düzenleyebilirsiniz!",
+            "prompt": "Lütfen açılır menüden aşağıdaki seçeneklerden birini seçin:",
+            "options": {
+               "channel": {
+                  "name": "Bump Kanalı",
+                  "description": "Bump4You’nun reklamları nereye göndereceğini değiştirin."
+               },
+               "description": {
+                  "name": "Açıklama",
+                  "description": "Sunucunuzun açıklamasını değiştirin."
+               },
+               "color": {
+                  "name": "Renk",
+                  "description": "Bump embed renginizi değiştirin."
+               },
+               "image": {
+                  "name": "Banner",
+                  "description": "Bump embed görselinizi değiştirin."
+               },
+               "tags": {
+                  "name": "Etiketler",
+                  "description": "Kullanıcıların aradığı konularda görün."
+               }
+            }
+         },
+         "selectMenu": {
+            "placeholder": "Lütfen bir seçenek belirleyin..."
+         },
+         "Buttons": {
+            "useDashboard": "Gösterge Panelini Kullan",
+            "useDiscord": "Discord’u Kullan"
+         }
+      },
+
+      "Channel": {
+         "title": "Kanal & Davet",
+         "question": "Bump4You reklamları nereye gönderebilir?",
+         "description": "Bump4You'nun kendi reklamlarınızı ve diğer reklamları göndermeye başlaması için bir kanal seçmelisiniz.",
+         "currentChannel": "Geçerli Bump Kanalı",
+         "channelNotFound": "Kanal bulunamadı",
+         "selectChannel": "Lütfen bir kanal seçin...",
+         "currentInviteLink": "Geçerli Davet Linki",
+         "linkNotFound": "Davet linki bulunamadı"
+      },
+
+      "Description": {
+         "title": "Açıklama",
+         "question": "Sunucunuz ne hakkında?",
+         "description": "Sunucunuza katılmaları için üyeleri ikna edecek bir açıklama girmelisiniz.",
+         "preview": "Önizleme",
+         "notFound": "Açıklama bulunamadı",
+         "tips": {
+            "title": "İpuçları",
+            "1": {
+               "title": "İpucu 1",
+               "description": "Açıklamanız, sunucunuzun ne hakkında olduğunu ve bir üyenin sunucunuzda tipik olarak ne yapacağını vurgulamalıdır."
+            },
+            "2": {
+               "title": "İpucu 2",
+               "description": "Açıklamanızı öne çıkarın. Emojiler kullanarak benzersiz ve çekici hale getirin, üyeleri katılmaya ikna edin."
+            },
+            "3": {
+               "title": "İpucu 3",
+               "description": "İyi bir açıklama yeni üyeler çekmek için hayati önem taşır, bu yüzden sunucunuzu açıkça gösterin."
+            }
+         },
+         "modal": {
+            "title": "Bir Açıklama Belirleyin",
+            "label": "Lütfen sunucunuzun açıklamasını girin",
+            "placeholder": "Açıklama ipuçlarını unutmayın..."
+         }
+      },
+
+      "Color": {
+         "title": "Bir renk ayarlayın",
+         "question": "Hangi renk iyi olur?",
+         "description": "Sunucunuzla uyumlu bir renk seçin; önceden tanımlanmış bir renk seçebilir veya kendi HEX kodunuzu girebilirsiniz.",
+         "preview": "Geçerli Renk",
+         "invalid": "Seçilen özel renk geçersiz.",
+         "modal": {
+            "title": "Özel Renk Belirleyin",
+            "label": "Bir HEX kodu girin"
+         },
+         "selectMenu": {
+            "placeholder": "Bir renk seçin..."
+         }
+      },
+
+      "Image": {
+         "title": "Banner Görseli",
+         "prompt": "Harika bir görsel deneyin!",
+         "description": "Reklamınızın altındaki görseli herhangi bir statik görsel ile değiştirebilirsiniz, sadece uzantıyı eklemeyi unutmayın.",
+         "animated": "Animasyonlu Görsel",
+         "invalidURL": "Geçersiz Görsel URL'si",
+         "webpage": "Görsel URL'si bir web sayfasına yönlendirilmiş, bir görsele değil; bağlantınıza .png gibi bir uzantı eklemeyi deneyin.",
+         "premiumRequired": "Animasyonlu banner görsellerine erişmek için Bump4You Premium’a ihtiyacınız var.",
+         "modal": {
+            "title": "Görsel URL'sini Ayarla",
+            "label": "Bir görsel URL'si girin",
+            "placeholder": "Varsayılan için boş bırakın..."
+         }
+      },
+
+      "Tags": {
+         "title": "Bazı Etiketler Seçin",
+         "question": "Sunucunuzu hangi kelimeler tanımlar?",
+         "description": "Sunucunuzun etiketlerini değiştirmek için Bump4You web sitesini kullanın, çünkü Discord'un mevcut arayüzü özel etiketlere izin vermiyor.",
+         "preview": "Geçerli Etiketler",
+         "notFound": "Etiket bulunamadı"
+      },
+
+      "Complete": {
+         "title": "Tebrikler, sunucunuz hazır!",
+         "description": "Şimdi sunucunuzu bumplamaya başlayabilirsiniz veya resimleri, renkleri ve daha fazlasını değiştirmek için sunucunuzu daha da özelleştirebilirsiniz.",
+         "view": "Bu sunucuyu Bump4You’nun web sitesinde görüntüleyin"
+      }
+   }
+}

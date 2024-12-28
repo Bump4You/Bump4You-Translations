@@ -1,0 +1,307 @@
+{
+   "Common": {
+      "Next": "Volgende",
+      "Edit": "Wysig",
+      "Back": "Terug",
+      "Cancel": "Kanselleer",
+      "Finish": "Voltooi",
+      "Bump": "Bump",
+      "Preview": "Voorskou",
+      "Customize": "Pas aan",
+      "True": "Waar",
+      "False": "Vals",
+      "Details": "Besonderhede",
+      "BumpCount": "Bump Telling",
+      "Created": "Geskep",
+      "Members": "Lede",
+      "Boosters": "Bevorderders",
+      "Language": "Taal",
+      "Rating": "Gradering",
+      "Tags": "Etikette",
+      "SharedTo": "Gedeel met",
+      "Servers": "bedieners",
+      "Reached": "Bereik",
+      "Users": "gebruikers",
+      "Cooldown": "Bump Afkoeltyd",
+      "Bumped": "Gebump",
+      "Times": "keer",
+      "Review": "Hersien",
+      "Report": "Rapporteer",
+      "AdditionalLinks": "Bykomende Skakels",
+      "Website": "Webwerf",
+      "Websites": "Webwerwe",
+      "Premium": "Premium",
+      "Support": "Ondersteuning",
+      "SupportServer": "Ondersteuningsbediener",
+      "AddBump4You": "Voeg Bump4You by",
+      "Dashboard": "Paneelbord",
+      "Mode": "Modus",
+      "Enable": "Aktiveer",
+      "Disable": "Deaktiveer",
+      "Enabled": "Geaktiveer",
+      "Disabled": "Gedeaktiveer",
+      "error": "Fout",
+      "errorMessage": "Iets het verkeerd gegaan",
+      "errorDescription": "Dit lyk of jy 'n baie skaars fout gevind het! Die fout is aangeteken en ons sal dit binnekort regstel.",
+      "Time": {
+         "hour": "uur",
+         "hours": "ure",
+         "minutes": "minute"
+      },
+      "Languages": {
+         "af_ZA": "Afrikaans",
+         "de_DE": "Duits",
+         "en_EN": "Engels",
+         "es_ES": "Spaans",
+         "fr_FR": "Frans",
+         "nl_NL": "Nederlands",
+         "ru_RU": "Russies",
+         "tr_TR": "Turks",
+         "ua_UA": "Oekraïens",
+         "zh_ZH": "Chinese"
+      }
+   },
+
+   "Permissions": {
+      "missingPermissions": "Gebrek aan Toestemmings",
+      "description": "Sjoe, ek mis baie belangrike toestemmings op hierdie bediener! Voeg asseblief die volgende toestemmings by vir Bump4You."
+   },
+
+   "Vote": {
+      "title": "Stem vir Bump4You",
+      "consider": "Oorweeg om te stem vir:"
+   },
+
+   "Reminder": {
+      "title": "Herinnering Aanskakel",
+      "profile": "{user} se Profiel"
+   },
+
+   "Ping": {
+      "title": "Pong!",
+      "api": "API Latensie",
+      "client": "Kliënt Latensie"
+   },
+
+   "Leaderboard": {
+      "title": "Bump4You se Bump Leierbord",
+      "official": "Amptelike & Geassosieerde Bedieners",
+      "topTen": "Top Bedieners"
+   },
+
+   "Language": {
+      "current": "Huidige taal",
+      "previous": "Vorige taal"
+   },
+
+   "RequestDelete": {
+      "title": "Vra vir Dataverwydering",
+      "description": "Is jy seker jy wil jou data wat oor jou gestoor is, verwyder? Hierdie aksie kan nie ongedaan gemaak word nie.",
+      "confirm": "Bevestig Verwydering",
+      "cancel": "Versoek is gekanselleer.",
+      "success": "Al jou inligting is suksesvol verwyder!"
+   },
+
+   "Banned": {
+      "title": "Bediener Verban",
+      "description": "{guild_name} is verban en sal nie Bump4You kan gebruik nie",
+      "information": "Inligting",
+      "reason": "Rede",
+      "id": "ID",
+      "appeal": "Appèl"
+   },
+
+   "BotInfo": {
+      "title": "Bump4You se Inligting",
+      "info": "Bot Inligting",
+      "botStats": "Bot Statistieke",
+      "bot": {
+         "name": "Naam          ➜ {value}",
+         "id": "ID            ➜ {value}",
+         "latency": "Latensie      ➜ {value}",
+         "prefix": "Voorvoegsel   ➜ {value}",
+         "developers": "Ontwikkelaars ➜ {value}"
+      },
+      "stats": {
+         "servers": "Totale Bedieners ➜ {value}",
+         "members": "Totale Lede      ➜ {value}",
+         "bumps": "Totale Bumps     ➜ {value}",
+         "uptime": "Totale Uptyd     ➜ {value}"
+      }
+   },
+
+   "Help": {
+      "title": "Hulp",
+      "commands": "Opdrag",
+      "setupGuide": "Instellingsgids",
+      "guide": "Hoe om Bump4You te gebruik",
+      "guideDescription": "Bump4You maak dit baie maklik om jou advertensie op te stel! Kyk na hierdie {yt_tutorial} of gebruik ons {dashboard} om jou advertensie direk op te stel!",
+      "guideDescriptionContinued": "Om jou advertensie op Discord op te stel, klik op die Instellingsgids-knoppie hieronder om die gids te volg of klik op die Opdragte-knoppie om al Bump4You se lekker opdragte te sien.",
+      "youtubeTutorial": "YouTube Gids",
+      "premium": "Hoe om Premium te kry",
+      "premiumDescription": "Daar is tans drie maniere om premium te kry:",
+      "premium-1": "Teken in op ons {patreon}.",
+      "premium-2": "Stem vir Bump4You op {topgg}.",
+      "premium-3": "Boost ons {support_server}.",
+      "didYouKnow": {
+         "1": "Het jy geweet dat die kleur van groei groen is?",
+         "2": "Het jy geweet jy kan Bump4You se taal verander deur {command} te gebruik?"
+      }
+   },
+
+   "Bump": {
+      "title": "Bediener Suksesvol Gebump!",
+      "serverNotFound": "Bediener nie gevind nie",
+      "serverNotFoundDescription": "Oeps, dit lyk asof hierdie bediener nie beskikbaar is nie.",
+      "autobump": "Bump gedeaktiveer",
+      "autobumpDescription": "Die bump-opdrag is gedeaktiveer omdat autobump op hierdie bediener geaktiveer is.",
+      "bumpedBy": "Gebump deur",
+      "joinServer": "Sluit aan by Bediener",
+      "didYouKnow": {
+         "title": "Het jy geweet?",
+         "1": "Jy kan premium kry deur vir Bump4You op {top_gg} te stem.",
+         "2": "Met premium kan jy jou banier na 'n GIF verander.",
+         "3": "Met premium kan jy jou hoofbeeld verander.",
+         "4": "Met premium kan jy meer etikette kies.",
+         "5": "Met premium kan jy jou bump afkoeltyd verminder.",
+         "cooldown": "Jy kan jou bump afkoeltyd verminder met {premium}."
+      },
+      "validations": {
+         "bumpFailed": "Bump het misluk",
+         "cooldown": "Die bump afkoeltyd het nog nie verstryk nie!",
+         "channelNotText": "Sjoe, jou bump-kanaal is nie 'n tekskanaal nie. Gebruik {command} om dit as 'n tekskanaal te stel.",
+         "channelNotVisible": "Sjoe, @everyone kan nie jou bump-kanaal sien nie, gaan na {channel} en verander die standaardtoestemmings om {permission} toe te laat.",
+         "channelNotAllowed": "Sjoe, ek het ontbrekende toestemmings! Voeg asseblief die volgende toestemmings in {channel} vir Bump4You by.",
+         "bumpAgain": "Bump Weer",
+         "lastBumpedBy": "Laaste gebump deur",
+         "nobody": "Niemand"
+      }
+   },
+
+   "Setup": {
+      "Home": {
+         "title": "Bedienerinstelling",
+         "welcome": "Welkom by bedienerinstelling!",
+         "firstTime": {
+            "1": "Dit lyk asof dit jou eerste keer is wat jy hierdie bediener instel! Dit word aanbeveel om jou bediener op die Bump4You-paneelbord op te stel.",
+            "2": "Wil jy die Bump4You-paneelbord gebruik of op Discord voortgaan?"
+         },
+         "existing": {
+            "description": "Dit word aanbeveel om jou bediener op die Bump4You-paneelbord op te stel, maar jy kan steeds jou bediener direk op Discord wysig!",
+            "prompt": "Kies asseblief een van die volgende opsies in die keuselys:",
+            "options": {
+               "channel": {
+                  "name": "Bump Kanaal",
+                  "description": "Verander waar Bump4You advertensies stuur."
+               },
+               "description": {
+                  "name": "Beskrywing",
+                  "description": "Verander die beskrywing van jou bediener."
+               },
+               "color": {
+                  "name": "Kleur",
+                  "description": "Verander die kleur van jou bump embed."
+               },
+               "image": {
+                  "name": "Banier",
+                  "description": "Verander die beeld van jou bump embed."
+               },
+               "tags": {
+                  "name": "Etikette",
+                  "description": "Verskyn waarvoor gebruikers soek."
+               }
+            }
+         },
+         "selectMenu": {
+            "placeholder": "Kies asseblief 'n opsie..."
+         },
+         "Buttons": {
+            "useDashboard": "Gebruik Paneelbord",
+            "useDiscord": "Gebruik Discord"
+         }
+      },
+
+      "Channel": {
+         "title": "Kanaal en Uitnodiging",
+         "question": "Waar kan Bump4You advertensies stuur?",
+         "description": "Jy moet 'n kanaal kies voordat Bump4You kan begin om jou en ander advertensies te stuur",
+         "currentChannel": "Huidige Bump Kanaal",
+         "channelNotFound": "Geen kanaal gevind nie",
+         "selectChannel": "Kies asseblief 'n kanaal...",
+         "currentInviteLink": "Huidige Uitnodigingskakel",
+         "linkNotFound": "Geen uitnodigingskakel gevind nie"
+      },
+
+      "Description": {
+         "title": "Beskrywing",
+         "question": "Waaroor gaan jou bediener?",
+         "description": "Jy moet 'n beskrywing invoer wat lede oortuig om by jou bediener aan te sluit.",
+         "preview": "Voorskou",
+         "notFound": "Geen beskrywing gevind nie",
+         "tips": {
+            "title": "Wenke",
+            "1": {
+               "title": "Wenk 1",
+               "description": "Jou beskrywing moet uitlig waaroor jou bediener gaan en wat 'n lid tipies op jou bediener sal doen."
+            },
+            "2": {
+               "title": "Wenk 2",
+               "description": "Maak jou beskrywing uniek en aantreklik deur verskillende emojis te gebruik om lede te oortuig om aan te sluit."
+            },
+            "3": {
+               "title": "Wenk 3",
+               "description": "‘n Goeie beskrywing is belangrik om nuwe lede te lok; wees dus duidelik oor wat jou bediener bied."
+            }
+         },
+         "modal": {
+            "title": "Stel 'n Beskrywing In",
+            "label": "Voer asseblief die beskrywing van jou bediener in",
+            "placeholder": "Onthou die beskrywingswenke..."
+         }
+      },
+
+      "Color": {
+         "title": "Stel 'n kleur in",
+         "question": "Watter kleur sou mooi pas?",
+         "description": "Kies 'n koel kleur wat by jou bediener pas. Jy kan 'n voorafbepaalde kleur kies of jou eie kleur met 'n HEX-kode invoer.",
+         "preview": "Huidige Kleur",
+         "invalid": "Die gekose aangepaste kleur is ongeldig.",
+         "modal": {
+            "title": "Stel 'n aangepaste kleur in",
+            "label": "Voer asseblief 'n HEX-kode in"
+         },
+         "selectMenu": {
+            "placeholder": "Kies asseblief 'n kleur..."
+         }
+      },
+
+      "Image": {
+         "title": "Banierbeeld",
+         "prompt": "Probeer 'n koel beeld!",
+         "description": "Jy kan die beeld onder jou advertensie verander na enige statiese beeld, onthou net om die beelduitbreiding by te voeg.",
+         "animated": "Geanimeerde Beeld",
+         "invalidURL": "Ongeldige Beeld URL",
+         "webpage": "Die beeld URL wys na 'n webblad en nie 'n beeld nie, probeer om die uitbreiding by jou skakel te voeg soos .png",
+         "premiumRequired": "Jy benodig Bump4You Premium om toegang tot geanimeerde banierbeelde te hê.",
+         "modal": {
+            "title": "Stel Beeld URL in",
+            "label": "Voer asseblief 'n beeld URL in",
+            "placeholder": "Los oop vir standaard..."
+         }
+      },
+
+      "Tags": {
+         "title": "Kies 'n paar Etikette",
+         "question": "Watter woorde beskryf jou bediener?",
+         "description": "Om die etikette van jou bediener te verander, gebruik die Bump4You-webwerf, aangesien Discord se huidige UI nie vir aangepaste etikette voorsiening maak nie.",
+         "preview": "Huidige Etikette",
+         "notFound": "Geen etikette gevind nie"
+      },
+
+      "Complete": {
+         "title": "Geluk, jou bediener is gereed!",
+         "description": "Jy kan nou begin om jou bediener te bump, of jy kan jou bediener verder aanpas om die beelde, kleure en meer te verander.",
+         "view": "Bekyk hierdie bediener op Bump4You se webwerf"
+      }
+   }
+}
