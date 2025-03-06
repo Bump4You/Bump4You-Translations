@@ -40,6 +40,7 @@
       "Disable": "Deaktiveer",
       "Enabled": "Geaktiveer",
       "Disabled": "Gedeaktiveer",
+      "TestMode": "Toetsmodus",
       "error": "Fout",
       "errorMessage": "Iets het verkeerd gegaan",
       "errorDescription": "Dit lyk of jy 'n baie skaars fout gevind het! Die fout is aangeteken en ons sal dit binnekort regstel.",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "Gebrek aan Toestemmings",
-      "description": "Sjoe, ek mis baie belangrike toestemmings op hierdie bediener! Voeg asseblief die volgende toestemmings by vir Bump4You."
+      "description": "Sjoe, ek mis baie belangrike toestemmings op hierdie bediener! Voeg asseblief die volgende toestemmings by vir Bump4You.",
+      "testMode": "Aktiveer toetsmodus",
+      "testModeDescription": "Deur toetsmodus te aktiveer, kan jy 'n tydelike uitnodigingskakel stel. Wanneer jy /bump gebruik, sal jou advertensie slegs na hierdie bediener gestuur word.",
+      "continue": "Gaan voort met opstelling",
+      "testStatus": "{guild} se toetsstatus",
+      "testStatusShortDescription": "Toetsmodus is aktief!",
+      "testStatusDescription": "Jy kan toetsmodus deaktiveer wanneer jy wil, maar Bump4You sal toestemmings benodig wanneer dit gedeaktiveer is. Die dashboard ondersteun nog nie toetsmodus nie.",
+      "disableTestMode": "Deactivate Test Mode",
+      "testBump": "Deaktiveer toetsmodus",
+      "failedBump": "Dit blyk dat iets verskriklik verkeerd gegaan het tydens die generering van jou stampboodskap.",
+      "removeCooldown": "Verwyder Afkoeling",
+      "cooldownRemoved": "Afkoeling verwyder"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "Herinnering Aanskakel",
-      "profile": "{user} se Profiel"
+      "profile": "{user} se Profiel",
+      "content": "{user}, dit is weer sulke tyd!",
+      "reminderTitle": "Dit is stamptyd",
+      "reminderDescription": "Deel jou bediener oor {server_count} ander bedieners op jou volgende bult.",
+      "shareAgain": "Deel weer",
+      "lastBumped": "Laas gestamp",
+      "disableNotifications": "Deaktiveer kennisgewings"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "Word 'n vertaler vir Bump4You deur 'n nuwe taal op te laai of wysig bloot 'n bestaande taal op Bump4You se {github}.",
       "current": "Huidige taal",
       "previous": "Vorige taal"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "Die bump-opdrag is gedeaktiveer omdat autobump op hierdie bediener geaktiveer is.",
       "bumpedBy": "Gebump deur",
       "joinServer": "Sluit aan by Bediener",
+      "remindMe": "Herinner my!",
       "didYouKnow": {
          "title": "Het jy geweet?",
          "1": "Jy kan premium kry deur vir Bump4You op {top_gg} te stem.",

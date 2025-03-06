@@ -40,6 +40,7 @@
       "Disable": "禁用",
       "Enabled": "已启用",
       "Disabled": "已禁用",
+      "TestMode": "测试模式",
       "error": "错误",
       "errorMessage": "出了点问题",
       "errorDescription": "看起来您发现了一个极其罕见的错误！错误已记录，我们会尽快修复。",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "缺少权限",
-      "description": "哇，我在这个服务器上缺少一些非常重要的权限！请为 Bump4You 添加以下权限。"
+      "description": "哇，我在这个服务器上缺少一些非常重要的权限！请为 Bump4You 添加以下权限。",
+      "testMode": "激活测试模式",
+      "testModeDescription": "通过激活测试模式，您可以设置临时邀请链接。当您使用/bump时，您的广告只会发送到该服务器。",
+      "continue": "继续设置",
+      "testStatus": "{guild} 的测试状态",
+      "testStatusShortDescription": "测试模式已激活！",
+      "testStatusDescription": "您可以随时禁用测试模式，但是，Bump4You 禁用时将需要权限。仪表板目前还不支持测试模式。",
+      "disableTestMode": "停用测试模式",
+      "testBump": "测试冲击",
+      "failedBump": "生成碰撞消息时似乎出现了严重错误。",
+      "removeCooldown": "移除冷却时间",
+      "cooldownRemoved": "冷却时间已移除"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "切换提醒",
-      "profile": "{user} 的个人资料"
+      "profile": "{user} 的个人资料",
+      "content": "{user}，又到了那个时候！",
+      "reminderTitle": "现在是高峰期",
+      "reminderDescription": "在下一次碰撞时与 {server_count} 个其他服务器共享您的服务器。",
+      "shareAgain": "再次分享",
+      "lastBumped": "最后一次碰撞",
+      "disableNotifications": "禁用通知"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "通过上传新语言或简单地在 Bump4You 的 {github} 上编辑现有语言，成为 Bump4You 的翻译者。",
       "current": "当前语言",
       "previous": "上一个语言"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "Bump 命令已禁用，因为该服务器上启用了自动 Bump。",
       "bumpedBy": "Bump 发起人",
       "joinServer": "加入服务器",
+      "remindMe": "提醒我！",
       "didYouKnow": {
          "title": "您知道吗？",
          "1": "您可以通过在 {top_gg} 上为 Bump4You 投票来获得高级服务。",

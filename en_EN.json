@@ -40,6 +40,7 @@
       "Disable": "Disable",
       "Enabled": "Enabled",
       "Disabled": "Disabled",
+      "TestMode": "Test Mode",
       "error": "Error",
       "errorMessage": "Something went wrong",
       "errorDescription": "Looks like you caught an ultra rare error! The error has been logged and we'll be fixing it soon.",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "Missing Permissions",
-      "description": "Woah, I am missing very important permissions in this server! Please add the following permissions to Bump4You."
+      "description": "Woah, I am missing very important permissions in this server! Please add the following permissions to Bump4You.",
+      "testMode": "Activate Test Mode",
+      "testModeDescription": "By activating test mode, you can set a temporary invite link. When you use /bump, your advert will only get sent to this server.",
+      "continue": "Continue with setup",
+      "testStatus": "{guild}'s Test Status",
+      "testStatusShortDescription": "Test mode is active!",
+      "testStatusDescription": "You can disable test mode whenever you want, however, Bump4You will require permissions when disabled. The dashboard doesn't support Test Mode as of yet.",
+      "disableTestMode": "Deactivate Test Mode",
+      "testBump": "Test Bump",
+      "failedBump": "It appears something went terribly wrong while generating your bump message.",
+      "removeCooldown": "Remove Cooldown",
+      "cooldownRemoved": "Cooldown Removed"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "Toggle Reminder",
-      "profile": "{user}'s Profile"
+      "profile": "{user}'s Profile",
+      "content": "{user}, It's that time again!",
+      "reminderTitle": "It's bump time",
+      "reminderDescription": "Share your server across {server_count} other servers on your next bump.",
+      "shareAgain": "Share Again",
+      "lastBumped": "Last Bumped",
+      "disableNotifications": "Disable Notifications"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "Become a translater for Bump4You by uploading a new language or simply edit an existing language on Bump4You's {github}.",
       "current": "Current language",
       "previous": "Previous language"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "The bump command is disabled because autobump is enabled on this server.",
       "bumpedBy": "Bumped by",
       "joinServer": "Join Server",
+      "remindMe": "Remind me!",
       "didYouKnow": {
          "title": "Did you know?",
          "1": "You can buy premium with voting for Bump4You on {top_gg}.",

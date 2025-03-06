@@ -40,6 +40,7 @@
       "Disable": "Devre Dışı Bırak",
       "Enabled": "Etkin",
       "Disabled": "Devre Dışı",
+      "TestMode": "Test Modu",
       "error": "Hata",
       "errorMessage": "Bir şeyler yanlış gitti",
       "errorDescription": "Görünüşe göre nadir bir hata yakaladınız! Hata kaydedildi ve yakında düzelteceğiz.",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "Eksik İzinler",
-      "description": "Vay canına, bu sunucuda çok önemli izinlerim eksik! Lütfen Bump4You'ya aşağıdaki izinleri ekleyin."
+      "description": "Vay canına, bu sunucuda çok önemli izinlerim eksik! Lütfen Bump4You'ya aşağıdaki izinleri ekleyin.",
+      "testMode": "Test Modunu Etkinleştir",
+      "testModeDescription": "Test modunu etkinleştirerek geçici bir davet bağlantısı ayarlayabilirsiniz. /bump kullandığınızda reklamınız sadece bu sunucuya gönderilecektir.",
+      "continue": "Kuruluma devam edin",
+      "testStatus": "{guild}'nun Test Durumu",
+      "testStatusShortDescription": "Test modu aktif!",
+      "testStatusDescription": "Test modunu istediğiniz zaman devre dışı bırakabilirsiniz, ancak Bump4You devre dışı bırakıldığında izinlere ihtiyaç duyacaktır. Kontrol paneli henüz Test Modunu desteklemiyor.",
+      "disableTestMode": "Test Modunu Devre Dışı Bırak",
+      "testBump": "Test Çarpışması",
+      "failedBump": "Anlaşılan o ki, öne çıkan mesajınız oluşturulurken bir şeyler çok ters gitti.",
+      "removeCooldown": "Bekleme Süresini Kaldır",
+      "cooldownRemoved": "Bekleme Süresi Kaldırıldı"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "Hatırlatıcıyı Aç/Kapat",
-      "profile": "{user}’in Profili"
+      "profile": "{user}’in Profili",
+      "content": "{user}, Yine o zaman geldi!",
+      "reminderTitle": "Çarpma zamanı",
+      "reminderDescription": "Bir sonraki yükselişinizde sunucunuzu {server_count} diğer sunucuyla paylaşın.",
+      "shareAgain": "Tekrar Paylaş",
+      "lastBumped": "Son Vuruş",
+      "disableNotifications": "Bildirimleri devre dışı bırak"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "Yeni bir dil yükleyerek Bump4You'nun tercümanı olun veya Bump4You'nun {github}'ında mevcut bir dili düzenleyin.",
       "current": "Mevcut dil",
       "previous": "Önceki dil"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "Bump komutu devre dışı çünkü bu sunucuda otomatik bump etkin.",
       "bumpedBy": "Tarafından Bumplandı",
       "joinServer": "Sunucuya Katıl",
+      "remindMe": "Bana hatırlat!",
       "didYouKnow": {
          "title": "Biliyor muydunuz?",
          "1": "{top_gg} üzerinde Bump4You için oy vererek premium alabilirsiniz.",

@@ -40,6 +40,7 @@
       "Disable": "Uitschakelen",
       "Enabled": "Ingeschakeld",
       "Disabled": "Uitgeschakeld",
+      "TestMode": "Testmodus",
       "error": "Fout",
       "errorMessage": "Er is iets misgegaan",
       "errorDescription": "Het lijkt erop dat je een zeer zeldzame fout hebt ontdekt! De fout is vastgelegd en we zullen deze binnenkort oplossen.",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "Ontbrekende Machtigingen",
-      "description": "Wauw, ik mis belangrijke machtigingen op deze server! Voeg de volgende machtigingen toe aan Bump4You."
+      "description": "Wauw, ik mis belangrijke machtigingen op deze server! Voeg de volgende machtigingen toe aan Bump4You.",
+      "testMode": "Activeer de testmodus",
+      "testModeDescription": "Door de testmodus te activeren, kunt u een tijdelijke uitnodigingslink instellen. Wanneer u /bump gebruikt, wordt uw advertentie alleen naar deze server verzonden.",
+      "continue": "Ga verder met instellen",
+      "testStatus": "{guild}'s teststatus",
+      "testStatusShortDescription": "Testmodus is actief!",
+      "testStatusDescription": "U kunt de testmodus uitschakelen wanneer u maar wilt, maar Bump4You heeft machtigingen nodig als deze is uitgeschakeld. Het dashboard ondersteunt de testmodus nog niet.",
+      "disableTestMode": "Deactiveer de testmodus",
+      "testBump": "Test hobbel",
+      "failedBump": "Het lijkt erop dat er iets vreselijk mis is gegaan bij het genereren van uw bumpbericht.",
+      "removeCooldown": "Cooldown verwijderen",
+      "cooldownRemoved": "Cooldown verwijderd"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "Herinnering In-/Uitschakelen",
-      "profile": "{user}'s Profiel"
+      "profile": "{user}'s Profiel",
+      "content": "{user}, Het is weer zover!",
+      "reminderTitle": "Het is tijd voor een bult",
+      "reminderDescription": "Deel uw server met {server_count} andere servers bij uw volgende bump.",
+      "shareAgain": "Deel opnieuw",
+      "lastBumped": "Laatst gestoten",
+      "disableNotifications": "Meldingen uitschakelen"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "Word een vertaler voor Bump4You door een nieuwe taal te uploaden of eenvoudigweg een bestaande taal te bewerken op Bump4You's {github}.",
       "current": "Huidige taal",
       "previous": "Vorige taal"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "Het bump-commando is uitgeschakeld omdat autobump is ingeschakeld op deze server.",
       "bumpedBy": "Gebumpt door",
       "joinServer": "Deelnemen aan Server",
+      "remindMe": "Herinner mij eraan!",
       "didYouKnow": {
          "title": "Wist je dat?",
          "1": "Je kunt premium krijgen door te stemmen voor Bump4You op {top_gg}.",

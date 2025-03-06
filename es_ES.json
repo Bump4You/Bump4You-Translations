@@ -40,6 +40,7 @@
       "Disable": "Deshabilitar",
       "Enabled": "Habilitado",
       "Disabled": "Deshabilitado",
+      "TestMode": "Modo de prueba",
       "error": "Error",
       "errorMessage": "Algo salió mal",
       "errorDescription": "¡Parece que has encontrado un error ultra raro! El error ha sido registrado y lo estaremos solucionando pronto.",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "Permisos faltantes",
-      "description": "¡Vaya, me faltan permisos muy importantes en este servidor! Por favor, agrega los siguientes permisos a Bump4You."
+      "description": "¡Vaya, me faltan permisos muy importantes en este servidor! Por favor, agrega los siguientes permisos a Bump4You.",
+      "testMode": "Activar el modo de prueba",
+      "testModeDescription": "Al activar el modo de prueba, puede configurar un enlace de invitación temporal. Cuando usas /bump, tu anuncio solo se enviará a este servidor.",
+      "continue": "Continuar con la configuración",
+      "testStatus": "Estado de la prueba de {guild}",
+      "testStatusShortDescription": "¡El modo de prueba está activo!",
+      "testStatusDescription": "Puede desactivar el modo de prueba cuando lo desee; sin embargo, Bump4You necesitará permisos cuando esté desactivado. El tablero aún no admite el modo de prueba.",
+      "disableTestMode": "Desactivar el modo de prueba",
+      "testBump": "Prueba de prueba",
+      "failedBump": "Parece que algo salió terriblemente mal al generar el mensaje de aviso.",
+      "removeCooldown": "Eliminar tiempo de reutilización",
+      "cooldownRemoved": "Enfriamiento eliminado"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "Alternar recordatorio",
-      "profile": "Perfil de {user}"
+      "profile": "Perfil de {user}",
+      "content": "{user}, es esa vez otra vez!",
+      "reminderTitle": "Es tiempo de golpes",
+      "reminderDescription": "Comparte tu servidor con {server_count} otros servidores en tu próximo salto.",
+      "shareAgain": "Compartir de nuevo",
+      "lastBumped": "Último golpe",
+      "disableNotifications": "Desactivar notificaciones"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "Conviértase en traductor de Bump4You cargando un nuevo idioma o simplemente editando un idioma existente en {github} de Bump4You.",
       "current": "Idioma actual",
       "previous": "Idioma anterior"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "El comando bump está deshabilitado porque el autobump está habilitado en este servidor.",
       "bumpedBy": "Bumpeado por",
       "joinServer": "Unirse al servidor",
+      "remindMe": "¡Recuérdamelo!",
       "didYouKnow": {
          "title": "¿Sabías?",
          "1": "Puedes obtener premium votando por Bump4You en {top_gg}.",

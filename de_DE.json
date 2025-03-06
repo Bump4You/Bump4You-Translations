@@ -40,6 +40,7 @@
       "Disable": "Deaktivieren",
       "Enabled": "Aktiviert",
       "Disabled": "Deaktiviert",
+      "TestMode": "Testmodus",
       "error": "Fehler",
       "errorMessage": "Etwas ist schiefgelaufen",
       "errorDescription": "Es sieht aus, als hättest du einen ultra seltenen Fehler gefunden! Der Fehler wurde protokolliert, und wir werden ihn bald beheben.",
@@ -64,7 +65,18 @@
 
    "Permissions": {
       "missingPermissions": "Fehlende Berechtigungen",
-      "description": "Oh nein, mir fehlen sehr wichtige Berechtigungen auf diesem Server! Bitte füge die folgenden Berechtigungen zu Bump4You hinzu."
+      "description": "Oh nein, mir fehlen sehr wichtige Berechtigungen auf diesem Server! Bitte füge die folgenden Berechtigungen zu Bump4You hinzu.",
+      "testMode": "Aktivieren Sie den Testmodus",
+      "testModeDescription": "Durch die Aktivierung des Testmodus können Sie einen temporären Einladungslink festlegen. Wenn Sie /bump verwenden, wird Ihre Anzeige nur an diesen Server gesendet.",
+      "continue": "Fahren Sie mit der Einrichtung fort",
+      "testStatus": "{guild}s Teststatus",
+      "testStatusShortDescription": "Testmodus ist aktiv!",
+      "testStatusDescription": "Sie können den Testmodus jederzeit deaktivieren. Bump4You benötigt jedoch Berechtigungen, wenn es deaktiviert ist. Das Dashboard unterstützt den Testmodus noch nicht.",
+      "disableTestMode": "Testmodus deaktivieren",
+      "testBump": "Teststoß",
+      "failedBump": "Es scheint, dass beim Generieren Ihrer Bump-Nachricht ein schrecklicher Fehler aufgetreten ist.",
+      "removeCooldown": "Abklingzeit entfernen",
+      "cooldownRemoved": "Abklingzeit entfernt"
    },
 
    "Vote": {
@@ -74,7 +86,13 @@
 
    "Reminder": {
       "title": "Erinnerung umschalten",
-      "profile": "{user}'s Profil"
+      "profile": "{user}'s Profil",
+      "content": "{user}, es ist wieder soweit!",
+      "reminderTitle": "Es ist Zeit für einen Stoß",
+      "reminderDescription": "Geben Sie Ihren Server bei Ihrem nächsten Bump für {server_count} andere Server frei.",
+      "shareAgain": "Nochmals teilen",
+      "lastBumped": "Zuletzt gestoßen",
+      "disableNotifications": "Deaktivieren Sie Benachrichtigungen"
    },
 
    "Ping": {
@@ -90,6 +108,7 @@
    },
 
    "Language": {
+      "description": "Werden Sie Übersetzer für Bump4You, indem Sie eine neue Sprache hochladen oder einfach eine vorhandene Sprache auf {github} von Bump4You bearbeiten.",
       "current": "Aktuelle Sprache",
       "previous": "Vorherige Sprache"
    },
@@ -157,6 +176,7 @@
       "autobumpDescription": "Der Bump-Befehl ist deaktiviert, weil Autobump auf diesem Server aktiviert ist.",
       "bumpedBy": "Gebumpt von",
       "joinServer": "Server beitreten",
+      "remindMe": "Erinnere mich daran!",
       "didYouKnow": {
          "title": "Wusstest du?",
          "1": "Du kannst Premium erhalten, indem du für Bump4You auf {top_gg} abstimmst.",
